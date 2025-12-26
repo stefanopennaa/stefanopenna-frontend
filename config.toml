@@ -26,10 +26,10 @@ vcardURL = "https://stefanopenna.it"
 showQr = false
 showContact = true
 showBoards  = false
-showCertifications = false
+showCertifications = true
 showSocializations = true
 # sections = ["skills","publications","creations","contributions","experience","education","blog"]
-sections = []
+sections = ["education"]
 vcardfields = [
     "name",
     "image",

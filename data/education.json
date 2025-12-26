@@ -1,15 +1,9 @@
 [
     {
-        "school":"[Rochester Institute of Technology](https://rit.edu)",
-        "degree":"Bachelor of Science",
-        "major":"Management Information Systems",
-        "notes":"Beta Gamma Signma, High Honors",
-        "range":"2006 - 2008"
-    },
-    {
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
-        "range":"2004 - 2006"
+        "school": "[Politecnico di Torino](https://polito.it)",
+        "degree": "Laurea Triennale",
+        "major": "Ingegneria del Cinema e dei Mezzi di Comunicazione",
+        "notes": "Votazione: 104/110",
+        "range": "set 2020 - lug 2024"
     }
 ]
