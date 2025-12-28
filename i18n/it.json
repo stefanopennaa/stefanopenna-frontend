@@ -1,14 +1,14 @@
 {
     "about": "About",
     "blog": "Blog",
-    "certifications": "Certifications",
-    "creations": "Creations",
+    "certifications": "Certificazioni",
+    "creations": "Creazioni",
     "contact": "Contatti",
-    "contributions":"Open Source",
-    "education": "Education",
-    "experience": "Experience",
-    "publications": "Presentations",
-    "skills": "Skills",
-    "socialization": "Socialization",
-    "boards": "Boards & Volunteering"
+    "contributions": "Open Source",
+    "education": "Istruzione",
+    "experience": "Esperienza",
+    "publications": "Presentazioni",
+    "skills": "Competenze",
+    "socialization": "Socializzazione",
+    "boards": "Volontariato"
 }
