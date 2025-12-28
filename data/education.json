@@ -1,9 +1,23 @@
 [
     {
-        "school": "[Politecnico di Torino](https://polito.it)",
+        "school": "[Politecnico di Torino](https://www.polito.it)",
+        "degree": "Laurea Magistrale",
+        "major": "Ingegneria Informatica",
+        "notes": "Orientamento Computing and Network Infrastructures",
+        "range": "set 2024 - presente"
+    },
+    {
+        "school": "[Politecnico di Torino](https://www.polito.it)",
         "degree": "Laurea Triennale",
         "major": "Ingegneria del Cinema e dei Mezzi di Comunicazione",
         "notes": "Votazione: 104/110",
         "range": "set 2020 - lug 2024"
+    },
+    {
+        "school": "[I.I.S.S. G. Salvemini](https://www.salveminialessano.edu.it/)",
+        "degree": "Diploma Istituto Tecnico e Professionale",
+        "major": "Orientamento Informatica e Telecomunicazioni",
+        "notes": "Votazione: 100/100",
+        "range": "set 2015 - giu 2020"
     }
 ]
