@@ -33,7 +33,7 @@ sections = ["education"]
 vcardfields = [
     "name",
     "image",
-    "org",
+    # "org", # I'm a student
     "email",
     "workemail",
     "phone",
