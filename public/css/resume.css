@@ -24,11 +24,11 @@ h5,
 h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
-  color: #343a40;
+  color: #1c2f5b;
 }
 
-
-h1, h2{
+h1,
+h2 {
   text-transform: uppercase;
 }
 
@@ -49,11 +49,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #1c2f5b;
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #2563EB;
 }
 
 .list-social-icons a .fa-lg {
@@ -65,7 +65,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #2563EB;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -75,6 +75,7 @@ h2 {
 
 @media (min-width: 992px) {
   #sideNav {
+    background-color: #1c2f5b;
     text-align: center;
     position: fixed;
     top: 0;
@@ -84,16 +85,19 @@ h2 {
     width: 17rem;
     height: 100vh;
   }
+
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
   }
+
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -101,13 +105,16 @@ h2 {
     width: 100%;
     margin-bottom: auto;
   }
+
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
     width: 100%;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
@@ -127,6 +134,7 @@ section.resume-section .resume-item .resume-date {
   section.resume-section {
     min-height: 100vh;
   }
+
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
@@ -140,17 +148,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #1c2f5b !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #2563EB !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #2563EB;
 }
 
-a:hover, a:focus, a:active {
-  color: #824027;
+a:hover,
+a:focus,
+a:active {
+  color: #1E40AF;
 }

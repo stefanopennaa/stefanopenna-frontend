@@ -3,20 +3,20 @@ BEGIN:VCARD
 VERSION:4.0
 
 
-N:Webbinaro;Eddie;;;
-FN:Eddie Webbinaro
+N:Penna;Stefano;;;
+FN:Stefano Penna
 
 
-TEL;TYPE=WORK,VOICE:1-555-555-1234
+TEL;TYPE=WORK,VOICE:3319413120
 
 
-EMAIL;TYPE=INTERNET,PREF:email@domain.com
+EMAIL;TYPE=INTERNET,PREF:stefano@stefanopenna.it
 
 
-EMAIL;TYPE=INTERNET,WORK:
+EMAIL;TYPE=INTERNET,WORK:s343693@studenti.polito.it
 
 
-PHOTO;TYPE=JPG;VALUE=URI://localhost:1313/img/TechChat.png
+PHOTO;TYPE=JPG;VALUE=URI://localhost:1313/https://cdn.stefanopenna.it/images/stefano.png
 
 
 ORG:Current Company LTD
@@ -25,6 +25,6 @@ ORG:Current Company LTD
 TITLE:
 
 
-URL://localhost:1313/
+URL:https://stefanopenna.it
 
 END:VCARD

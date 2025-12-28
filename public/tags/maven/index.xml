@@ -5,7 +5,7 @@
     <link>//localhost:1313/tags/maven/</link>
     <description>Recent content in Maven on Stefano Penna</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>it-it</language>
     <atom:link href="//localhost:1313/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker image for Bitbucket CI/CD Pipelines  &#34;shipit&#34;</title>
