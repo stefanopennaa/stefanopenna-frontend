@@ -4,4 +4,4 @@ layout: "contact"
 outputs: ["HTML","VCard"]
 ---
 
-[VCard Download](/contact.vcf)
+oppure [scarica e salva la VCard](/contact.vcf)
