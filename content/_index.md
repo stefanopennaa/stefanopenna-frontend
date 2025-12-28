@@ -9,4 +9,6 @@ outputs:
 - rss
 - json
 ---
-Proven Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud.
+**Studente di Ingegneria Informatica @ [Politecnico di Torino](https://www.polito.it/)**
+
+Ciao! Sono Stefano. Qui puoi scoprire qualcosa in più su di me, sul mio percorso e sulle mie passioni.

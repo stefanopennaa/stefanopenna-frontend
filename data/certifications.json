@@ -1,23 +1,20 @@
 [
 	{
-		"name":"AWS Solutions Architect",
-		"description": "AWS Certified Solutions Architect – Associate",
-		"badge":"https://images.credly.com/size/340x340/images/4bc21d8b-4afe-4fbd-9a90-a9de8bf7b240/AWS-SolArchitect-Associate-2020.png",
-		"proof":"https://www.credly.com/badges/9c168644-e23c-4605-9d98-91b5db56e6c9"
-
+		"name": "IELTS Academic 5.5 (B2 Level)",
+		"description": "IELTS Academic 5.5 (B2 Level) certified by British Council.",
+		"badge": "https://ielts.org/cdn/IELTS-logos/IELTS-Ive-got-this.png",
+		"proof": ""
 	},
 	{
-		"name":"ACP-JSD",
-		"description": "Jira Service Desk Administator",
-		"badge":"https://www.certmetrics.com/api/ob/image/atlassian/c/4/",
-		"proof":"https://www.certmetrics.com/atlassian/public/badge.aspx?i=4&t=c&d=2020-05-11&ci=AT00143196"
-
+		"name": "European Computer Driving Licence - ECDL / ICDL",
+		"description": "European Computer Driving Licence - ECDL / ICDL certified.",
+		"badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_ICDL.svg/1200px-Logo_ICDL.svg.png",
+		"proof": ""
 	},
 	{
-		"name":"ACP-JCA",
-		"description": "Jira Cloud Administator",
-		"badge":"https://www.certmetrics.com/api/ob/image/atlassian/c/26/",
-		"proof":"https://www.certmetrics.com/atlassian/public/badge.aspx?i=26&t=c&d=2020-08-07&ci=AT00143196"
-		
+		"name": "Introduction to Cybersecurity",
+		"description": "Introduction to Cybersecurity certified.",
+		"badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD1_tY_mXnWLucJFIB8A6VgBapHvRKjH9Z8A&s",
+		"proof": "https://cdn.stefanopenna.it/docs/Introduction_to_Cybersecurity_certificate_stefy-penna01-gmail-com_3c7a8f07-99b4-44f7-b00c-e6502eb38ce4.pdf"
 	}
 ]
