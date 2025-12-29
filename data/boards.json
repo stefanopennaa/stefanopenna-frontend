@@ -1,20 +1,11 @@
 [
     {
-        "organization": "Champlain Valley Educational Services",
-        "logo": "https://www.cves.org/wp-content/uploads/2023/01/cropped-cves-logo-color-no-subtext-square-512-192x192.png",
-        "website": "https://cves.org",
-        "description": "CVES is the regional Board of Cooperative Educational Services (BOCES) for 16 component schools across Clinton, Esses, Warren, and Washington counties.",
-        "term_start": "2023-06-01",
-        "term_end": "2025-05-31",
-        "role": "BOCES Member"
-    },
-    {
-        "organization": "Peru Central School Disctrict, Board of Education",
-        "logo": "https://perucsd.org/wp-content/uploads/2021/05/cropped-square-192x192.png",
-        "website": "https://perucsd.org",
-        "description": "Peru Central School is a Regional school serving multiple towns in Clinton County. Go Nighthawks!",
-        "term_start": "2022-06-01",
-        "term_end": "2027-05-31",
-        "role": "BOE Member"
+        "organization": "I.I.S.S. G. Salvemini",
+        "logo": "https://scaling.spaggiari.eu/LEII0017/logo/10635.png&rs=%2FtccTw2MgxYfdxRYmYOB6HjkoZcUOGTiYi6QRxuVV5sOGTp63rmnr%2BRTYVh7%2BFO%2FGwXtspJHA9p4BXfBXCcE%2BNfMTv1f63V8Ma7anOoEpmr1vY686jQADlCXWoD41fhLPKDeb5KzEXlN3xj5VLED2HK76ruGkCrzhAMWUaH%2BXdg%3D",
+        "website": "https://www.salveminialessano.edu.it/",
+        "description": "Consulta studentesca di Istituto - Gestione dei social network di Istituto e creazione di contenuti come locandine d’assemblea e video informativi sugli esami di stato 2020.",
+        "term_start": "2019-09-01",
+        "term_end": "2020-06-01",
+        "role": "Social Media Manager and Content Creator"
     }
 ]
