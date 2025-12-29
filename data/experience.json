@@ -1,20 +1,14 @@
 [
     {
-        "role": "Boss man",
-        "company": "Current Company LTD",
-        "summary": "Led in development of fast paced software teams.\n- list\n- of\n- things",
-        "range": "February 2016 - Present"
+        "role": "Tirocinante",
+        "company": "Links Management and Technology Spa",
+        "summary": "Progetto PON 2014-2020. Analisi di metodologie e software per la progettazione di un business model per un prodotto software. Sviluppo di un’applicazione mobile su piattaforma Android affiancati da un tutor.",
+        "range": "set 2018 - feb 2019"
     },
     {
-        "role": "Developer",
-        "company": "Current Company LTD",
-        "summary": "Expedited the synergies of collaborative agile tooling.",
-        "range": "March 2014 - February 2016"
-    },
-    {
-        "role": "Developer",
-        "company": "Previous Company Inc.",
-        "summary": "Implemented continuous devops pipelines automationing",
-        "range": "February 2013 - March 2014"
+        "role": "Tirocinante",
+        "company": "Ciemme Informatica Di Colaianni Massimo",
+        "summary": "Azienda IT specializzata in assistenza hardware e software. Riparazioni hardware, installazioni software, attivazione di software licenziati, assemblaggio di rack di rete, configurazione di driver, etc...",
+        "range": "mag 2018 - giu 2018"
     }
 ]
