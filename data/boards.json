@@ -3,9 +3,20 @@
         "organization": "I.I.S.S. G. Salvemini",
         "logo": "https://scaling.spaggiari.eu/LEII0017/logo/10635.png&rs=%2FtccTw2MgxYfdxRYmYOB6HjkoZcUOGTiYi6QRxuVV5sOGTp63rmnr%2BRTYVh7%2BFO%2FGwXtspJHA9p4BXfBXCcE%2BNfMTv1f63V8Ma7anOoEpmr1vY686jQADlCXWoD41fhLPKDeb5KzEXlN3xj5VLED2HK76ruGkCrzhAMWUaH%2BXdg%3D",
         "website": "https://www.salveminialessano.edu.it/",
-        "description": "Consulta studentesca di Istituto - Gestione dei social network di Istituto e creazione di contenuti come locandine d’assemblea e video informativi sugli esami di stato 2020.",
+        "description": "Gestione dei social network di Istituto e creazione di contenuti come locandine d’assemblea e video informativi sugli esami di stato 2020.",
         "term_start": "2019-09-01",
         "term_end": "2020-06-01",
+        "board": "Consulta studentesca di Istituto",
         "role": "Social Media Manager and Content Creator"
+    },
+    {
+        "organization": "Associazione Studentesca Generica",
+        "logo": "https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673-960x960.png",
+        "website": "https://example.org",
+        "description": "Partecipazione a un’associazione studentesca con attività di supporto organizzativo, collaborazione tra membri e gestione di iniziative interne.",
+        "term_start": "2020-10-01",
+        "term_end": "2021-06-01",
+        "board": "Associazione studentesca",
+        "role": "Membro attivo"
     }
 ]

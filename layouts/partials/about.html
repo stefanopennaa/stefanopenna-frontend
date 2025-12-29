@@ -51,11 +51,16 @@
       <ul class="list-inline list-social-icons mb-0">
         {{ range .Site.Data.boards }}
         <li class="list-inline-item">
-          <div class="mt-0 text-center" data-toggle="tooltip" title="{{ .description }}" data-offset="-30 -30">
-            <a href="{{ .website }}" target="_blank">
+          <div class="text-center d-flex">
+            <a href="{{ .website }}" data-toggle="tooltip" title="{{ .description }}" data-offset="-30 -30"
+              target="_blank">
               <img src="{{ .logo }}" width=75 />
             </a><br />
-            {{ .organization }}
+            <div class="text-left ml-2">
+              <h4 class="mb-0">{{ .organization }}</h4>
+              <div>{{ .board }}</div>
+              <div>{{ .role }}</div>
+            </div>
           </div>
         </li>
         <li class="list-inline-item">&nbsp;</li>
