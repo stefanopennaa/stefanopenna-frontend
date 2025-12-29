@@ -6,15 +6,27 @@
 		"proof": ""
 	},
 	{
+		"name": "Cambridge Assessment English (B1 Level)",
+		"description": "Cambridge Assessment English Preliminary (PET) certified by Cambridge.",
+		"badge": "https://librum.io/wp-content/uploads/2020/05/22366597_1991495981106547_2472117558416152506_n.jpg",
+		"proof": ""
+	},
+	{
 		"name": "European Computer Driving Licence - ECDL / ICDL",
 		"description": "European Computer Driving Licence - ECDL / ICDL certified.",
-		"badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_ICDL.svg/1200px-Logo_ICDL.svg.png",
-		"proof": ""
+		"badge": "https://cdn.prod.website-files.com/65d617da460be0dd54b331ca/65d617da460be0dd54b3321a_logo%20icdl.png",
+		"proof": "https://cdn.stefanopenna.it/docs/ICDL_Profile_2274446.pdf"
 	},
 	{
 		"name": "Introduction to Cybersecurity",
 		"description": "Introduction to Cybersecurity certified.",
-		"badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD1_tY_mXnWLucJFIB8A6VgBapHvRKjH9Z8A&s",
+		"badge": "https://www.colamonicochiarulli.edu.it/wp-content/uploads/2023/03/Cisco_academy_logo.svg_.png",
 		"proof": "https://cdn.stefanopenna.it/docs/Introduction_to_Cybersecurity_certificate_stefy-penna01-gmail-com_3c7a8f07-99b4-44f7-b00c-e6502eb38ce4.pdf"
+	},
+	{
+		"name": "Introduction to the Internet of Everything",
+		"description": "Introduction to the Internet of Everything certified.",
+		"badge": "https://www.colamonicochiarulli.edu.it/wp-content/uploads/2023/03/Cisco_academy_logo.svg_.png",
+		"proof": "https://cdn.stefanopenna.it/docs/Introduction_to_the_Internet_of_Everything_certificate_stefy-penna01-gmail-com_9e8e801b-5d0a-4cab-a59c-415ceabeadad.pdf"
 	}
 ]
