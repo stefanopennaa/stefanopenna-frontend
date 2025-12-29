@@ -4,7 +4,17 @@
   <div class="my-auto" id="projects-content">
     <h1 id="{{ urlize .Title }}">{{ .Title }}</h1>
     <p>{{ .Content }}</p>
-    {{ if not (and .IsSection (eq .File.Dir "projects/")) }}
+    <!-- Check if we are in the "projects" root section -->
+    {{ $isProjectsRoot := false }}
+    {{ if .IsSection }}
+      {{ with .File }}
+        {{ if eq .Dir "projects/" }}
+          {{ $isProjectsRoot = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    <!-- List subsections and pages if not in the "projects" root section -->
+    {{ if not $isProjectsRoot }}
       {{ range .Data.Pages.ByWeight }}
         {{ if ne .Type "markdown" }}
           {{ partial (printf "%s%s" .Type "Summary") . }}
