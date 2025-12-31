@@ -51,20 +51,18 @@
       crossorigin="anonymous">
   </noscript>
   <!-- Custom styles for this template -->
-  <link rel="preload" href="{{ "css/resume.css" | absURL }}" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href='{{ "css/resume.css" | absURL }}' as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="{{ "css/resume.css" | absURL }}">
+    <link rel="stylesheet" href='{{ "css/resume.css" | absURL }}'>
   </noscript>
-  <link rel="preload" href="{{ "css/tweaks.css" | absURL }}" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href='{{ "css/tweaks.css" | absURL }}' as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="{{ "css/tweaks.css" | absURL }}">
+    <link rel="stylesheet" href='{{ "css/tweaks.css" | absURL }}'>
   </noscript>
-  <link rel="preload" href="{{ "css/resume-override.css" | absURL }}" as="style"
+  <link rel="preload" href='{{ "css/resume-override.css" | absURL }}' as="style"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="{{ "css/resume-override.css" | absURL }}">
+    <link rel="stylesheet" href='{{ "css/resume-override.css" | absURL }}'>
   </noscript>
   {{ hugo.Generator }}
   <!-- Favicons -->
@@ -86,28 +84,17 @@
     {{ block "main" . }}
     {{ .Content }}
     {{ end }}
-    <!-- <section><span style="color: #999999;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
-      {{ with $.GitInfo }}{{ with $.Site.Params.gitCommitPrefix }} | <span style="color: #999999;;">Page content generated from commit: <a href="{{ . }}/{{ $.GitInfo.AbbreviatedHash }}" title="log: {{ $.GitInfo.Subject }}">{{ $.GitInfo.AbbreviatedHash }}</a>{{ end }}{{end}}
-    </section> -->
+    <!-- Footer with Git Info -->
     <footer class="text-center mt-4 mb-4">
-      <span style="color: #999999;">
-        <p>
-          <a href="https://themes.gohugo.io/themes/hugo-resume/" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.shields.io/badge/built%20with-Hugo-ff4088?logo=hugo&logoColor=white"
-              alt="Built with Hugo" />
-          </a>
-          <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://img.shields.io/badge/deployed%20on-Cloudflare%20Pages-2563EB?logo=cloudflare&logoColor=white"
-              alt="Deployed on Cloudflare Pages" />
-          </a>
-          <a href="https://github.com/stefanopennaa/stefanopenna-frontend" target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://img.shields.io/github/last-commit/stefanopennaa/stefanopenna-frontend/main?label=latest%20commit&logo=github"
-              alt="Latest GitHub commit" />
-          </a>
-        </p>
-      </span>
+      {{ with .GitInfo }}
+      <p class="mb-0">
+        Deployed from commit
+        <a href="https://github.com/stefanopennaa/stefanopenna-frontend/commit/{{ .Hash }}" target="_blank"
+          rel="noopener noreferrer">
+          {{ .AbbreviatedHash }}
+        </a>
+      </p>
+      {{ end }}
     </footer>
   </div>
   <!-- Bootstrap core JavaScript -->
