@@ -2,18 +2,21 @@
 title: Alternate Reality Game – Nesimo
 date: 2024-03-01T00:00:00+01:00
 featured: true
-link: "https://www.linkedin.com/in/stefano-penna/"
+link: "https://www.linkedin.com/in/stefano-penna/details/projects/"
 image: "https://cdn.stefanopenna.it/images/ethernatech.png"
-description: Progettazione e sviluppo di un Alternate Reality Game (ARG) realizzato durante il corso di Transmedia (A.A. 2023/2024).
+description: Progettazione e sviluppo di un ARG (Alternate Reality Game) durante il corso di Transmedia A.A. 2023/2024.
 tags:
   - HTML
   - CSS
   - Bootstrap
   - Web Development
   - Interactive Media
+  - Alternate Reality Game
+  - Transmedia
   - Klynt
   - iFrame
   - Elfsight
+  - Team Project
 fact: ""
 weight: 500
 sitemap:
