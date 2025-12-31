@@ -29,7 +29,7 @@ showBoards  = true
 showCertifications = true
 showSocializations = true
 # sections = ["skills","publications","creations","contributions","experience","education","blog"]
-sections = ["education", "creations", "contributions", "experience"]
+sections = ["education", "experience", "creations", "contributions"]
 vcardfields = [
     "name",
     "image",
