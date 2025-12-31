@@ -1,5 +1,5 @@
 ---
-title: Creations
+title: Progetti personali
 weight: 10
 sitemap:
   priority: 0.5
