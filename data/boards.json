@@ -8,15 +8,5 @@
         "term_end": "2020-06-01",
         "board": "Consulta studentesca di Istituto",
         "role": "Social Media Manager and Content Creator"
-    },
-    {
-        "organization": "Associazione Studentesca Generica",
-        "logo": "https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673-960x960.png",
-        "website": "https://example.org",
-        "description": "Partecipazione a un’associazione studentesca con attività di supporto organizzativo, collaborazione tra membri e gestione di iniziative interne.",
-        "term_start": "2020-10-01",
-        "term_end": "2021-06-01",
-        "board": "Associazione studentesca",
-        "role": "Membro attivo"
     }
 ]
