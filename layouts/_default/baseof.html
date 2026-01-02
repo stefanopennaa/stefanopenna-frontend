@@ -84,14 +84,18 @@
     {{ block "main" . }}
     {{ .Content }}
     {{ end }}
-    <!-- Footer with Git Info -->
+    <!-- Footer with Git Info and Resources -->
     <footer class="text-center mt-4 mb-4">
       {{ with .GitInfo }}
-      <p class="mb-0">
+      <p class="mb-0 text-muted">
         Deployed from commit
         <a href="https://github.com/stefanopennaa/stefanopenna-frontend/commit/{{ .Hash }}" target="_blank"
           rel="noopener noreferrer">
           {{ .AbbreviatedHash }}
+        </a>
+        |
+        <a href="https://cloud.stefanopenna.it" target="_blank" rel="noopener noreferrer">
+          Files &amp; Resources
         </a>
       </p>
       {{ end }}
