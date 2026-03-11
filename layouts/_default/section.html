@@ -22,6 +22,7 @@
       {{ end }}
     {{ end }}
     {{ range .Sections }}
+    <section class="project-subsection">
       <h2 id="{{ urlize .Title }}"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       {{ .Content }}
       {{ range .Pages }}
@@ -29,6 +30,7 @@
           {{ partial (printf "%sSummary" .Type) . }}
         {{ end }}
       {{ end }}
+    </section>
     {{ end }}
   </div>
 </section>

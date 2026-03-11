@@ -66,12 +66,8 @@ section.resume-section {
   border-bottom: 1px solid var(--border-soft);
 }
 
-#projects-content > h2 {
-  margin-top: 5.5rem !important;
-}
-
-#projects-content > h2:first-of-type {
-  margin-top: 2.75rem !important;
+.project-subsection + .project-subsection {
+  padding-top: 5rem;
 }
 
 .hero-panel,
@@ -261,14 +257,6 @@ section.resume-section {
   box-shadow: 0 14px 28px rgba(28, 47, 91, 0.12);
 }
 
-#projects-content .resume-item {
-  gap: 0.35rem;
-}
-
-#projects-content .project-card-image {
-  margin-right: 0 !important;
-}
-
 .resume-item {
   gap: 1rem;
 }
@@ -320,5 +308,24 @@ footer p {
   .board-card {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (min-width: 768px) {
+  #projects-content .resume-item.flex-md-row {
+    display: grid !important;
+    grid-template-columns: 150px minmax(0, 1fr);
+    column-gap: 2rem;
+    align-items: start;
+  }
+
+  #projects-content .resume-item .resume-date {
+    min-width: 0;
+    padding-left: 0.25rem;
+  }
+
+  #projects-content .project-card-image {
+    width: 150px;
+    margin-right: 0 !important;
   }
 }
