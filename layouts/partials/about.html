@@ -22,11 +22,11 @@
           <img class="profile-card-image" src="{{ .Site.Params.profileImage | relURL }}"
             alt="Foto profilo di {{ .Site.Params.firstName }} {{ .Site.Params.lastName }}">
           <div class="profile-card-body">
-            <p class="profile-card-label mb-2">Focus</p>
+            <p class="profile-card-label mb-2">Profilo</p>
             <ul class="profile-highlights">
-              <li>Sviluppo web full stack</li>
-              <li>Progetti universitari concreti</li>
-              <li>Frontend, API e integrazione dati</li>
+              <li>Formazione tra ingegneria informatica, media digitali e comunicazione</li>
+              <li>Sviluppo software e web con approccio pratico e multidisciplinare</li>
+              <li>Esperienza in contesti collaborativi, organizzativi e di rappresentanza</li>
             </ul>
           </div>
         </div>
@@ -36,16 +36,18 @@
       </div>
     </div>
     <div class="about-sections">
-      <!-- Keep these as text links so the section stays readable even if badge services are unavailable. -->
-      <div class="meta-chips" aria-label="Tecnologie e piattaforme del sito">
-        <a class="meta-chip" href="https://themes.gohugo.io/themes/hugo-resume/" target="_blank" rel="noopener noreferrer">
-          <span>Hugo Resume</span>
+      <div class="meta-badges" aria-label="Tecnologie e piattaforme del sito">
+        <a href="https://themes.gohugo.io/themes/hugo-resume/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/built%20with-Hugo-ff4088?logo=hugo&logoColor=white"
+            alt="Built with Hugo" loading="lazy" />
         </a>
-        <a class="meta-chip" href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
-          <span>Cloudflare Pages</span>
+        <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/deployed%20on-Cloudflare%20Pages-2563EB?logo=cloudflare&logoColor=white"
+            alt="Deployed on Cloudflare Pages" loading="lazy" />
         </a>
-        <a class="meta-chip" href="https://github.com/stefanopennaa/stefanopenna-frontend" target="_blank" rel="noopener noreferrer">
-          <span>Codice sorgente</span>
+        <a href="https://github.com/stefanopennaa/stefanopenna-frontend" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/source-GitHub-111827?logo=github&logoColor=white"
+            alt="Codice sorgente su GitHub" loading="lazy" />
         </a>
       </div>
       {{ if .Site.Params.showSocializations }}
@@ -70,7 +72,7 @@
         {{ range .Site.Data.certifications }}
         <li class="list-inline-item">
           {{ if .proof }}
-          <a href="{{ .proof }}" aria-label="{{ .name }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10" rel="me" target="_blank">
+          <a class="certification-badge" href="{{ .proof }}" aria-label="{{ .name }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10" rel="me" target="_blank">
             <img src="{{ .badge }}" width="75" alt="{{ .name }}" loading="lazy" />
           </a>
           {{ else }}

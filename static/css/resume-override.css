@@ -66,6 +66,14 @@ section.resume-section {
   border-bottom: 1px solid var(--border-soft);
 }
 
+#projects-content > h2 {
+  margin-top: 4.5rem;
+}
+
+#projects-content > h2:first-of-type {
+  margin-top: 3rem;
+}
+
 .hero-panel,
 #projects-content,
 .resume-section .my-auto {
@@ -170,30 +178,52 @@ section.resume-section {
   display: none;
 }
 
-.meta-chips {
+.meta-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
   margin: 1.5rem 0 0.5rem;
 }
 
-.meta-chip {
+.meta-badges a {
   display: inline-flex;
   align-items: center;
-  padding: 0.7rem 1rem;
-  border: 1px solid var(--border-soft);
+}
+
+.meta-badges img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   border-radius: 999px;
-  background: var(--surface);
-  color: var(--ink);
-  text-decoration: none;
   box-shadow: 0 10px 24px rgba(28, 47, 91, 0.08);
 }
 
-.meta-chip:hover,
-.meta-chip:focus {
-  color: var(--accent-dark);
-  text-decoration: none;
-  transform: translateY(-1px);
+.tag {
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--ink);
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  border-radius: 999px 0 0 999px;
+}
+
+.tag::before {
+  background: var(--page-bg);
+  box-shadow: inset 0 1px rgba(28, 47, 91, 0.18);
+}
+
+.tag::after {
+  background: var(--page-bg);
+  border-left-color: rgba(37, 99, 235, 0.08);
+}
+
+.tag:hover,
+.tag:focus {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+.tag:hover::after,
+.tag:focus::after {
+  border-left-color: var(--accent);
 }
 
 .certification-list .list-inline-item,
@@ -205,12 +235,18 @@ section.resume-section {
 .board-card {
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 5.5rem;
   padding: 0.9rem 1rem;
   background: var(--surface);
   border: 1px solid var(--border-soft);
   border-radius: 1rem;
   box-shadow: 0 12px 28px rgba(28, 47, 91, 0.08);
+}
+
+.certification-badge {
+  min-width: 7rem;
+  text-decoration: none;
 }
 
 .board-card img,
@@ -223,6 +259,10 @@ section.resume-section {
 .project-card-image {
   border-radius: 0.9rem;
   box-shadow: 0 14px 28px rgba(28, 47, 91, 0.12);
+}
+
+.resume-item .project-card-image {
+  margin-right: 0.5rem !important;
 }
 
 .resume-item {
