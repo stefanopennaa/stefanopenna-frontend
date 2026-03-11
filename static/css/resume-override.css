@@ -8,13 +8,15 @@
   --accent: #2563eb;
   --accent-dark: #1d4ed8;
   --accent-soft: rgba(37, 99, 235, 0.08);
+  --accent-border: rgba(37, 99, 235, 0.12);
+  --accent-glow: rgba(37, 99, 235, 0.35);
   --shadow-lg: 0 24px 60px rgba(28, 47, 91, 0.14);
   --shadow-md: 0 16px 40px rgba(28, 47, 91, 0.12);
 }
 
 html {
   background:
-    radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 28%),
+    radial-gradient(circle at top right, var(--accent-border), transparent 28%),
     linear-gradient(180deg, #fbfcff 0%, var(--page-bg) 100%);
 }
 
@@ -195,11 +197,11 @@ section.resume-section {
 }
 
 .tag {
-  background: rgba(37, 99, 235, 0.08);
+  background: var(--accent-soft);
   color: var(--ink);
   border: none;
   border-radius: 999px 0 0 999px;
-  filter: drop-shadow(0 0 0.75px rgba(37, 99, 235, 0.35));
+  filter: drop-shadow(0 0 0.75px var(--accent-glow));
 }
 
 .tag::before {
@@ -208,8 +210,8 @@ section.resume-section {
 }
 
 .tag::after {
-  background: var(--page-bg);
-  border-left-color: rgba(37, 99, 235, 0.08);
+  background: transparent;
+  border-left-color: var(--accent-soft);
 }
 
 .tag:hover,
