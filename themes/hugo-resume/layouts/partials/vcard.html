@@ -16,15 +16,15 @@ EMAIL;TYPE=INTERNET,PREF:{{ .Param "email" }}
 EMAIL;TYPE=INTERNET,WORK:{{ .Param "workemail" }}
 {{ end }}
 {{ if in $fields "image" }}
-PHOTO;TYPE=JPG;VALUE=URI:{{ .Site.BaseURL }}{{ .Site.Params.profileImage }}
+PHOTO;TYPE=JPG;VALUE=URI:{{ .Site.Params.profileImage }}
 {{ end }}
 {{ if in $fields "org" }}
 ORG:{{ range first 1 .Site.Data.experience }}{{ .company }}{{ end }}
 {{ end }}
-{{ if in $fields "title" }}
-TITLE:{{ .Site.Params.contactNote }}
+{{ if and (in $fields "title") .Site.Params.tagline }}
+TITLE:{{ .Site.Params.tagline }}
 {{ end }}
 {{ if in $fields "url" }}
-URL:{{ .Site.BaseURL }}
+URL:{{ .Site.Params.vcardURL }}
 {{ end }}
 END:VCARD

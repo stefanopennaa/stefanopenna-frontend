@@ -14,6 +14,7 @@ defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = false
 
 [params]
+description = "Portfolio personale di Stefano Penna: studi, esperienze e progetti in ambito sviluppo software e web."
 address = "Torino, TO"
 email = "stefano@stefanopenna.it"
 workemail = "s343693@studenti.polito.it"
@@ -21,6 +22,7 @@ favicon = "/favicon.ico"
 firstName = "Stefano"
 lastName = "Penna"
 phone = "3319413120"
+tagline = "Studente di Ingegneria Informatica e sviluppatore web"
 profileImage = "https://cdn.stefanopenna.it/images/stefano.png"
 vcardURL = "https://stefanopenna.it"
 showQr = false

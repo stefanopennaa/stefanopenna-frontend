@@ -1,50 +1,59 @@
 <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
   <div class="my-auto">
-    <div class="resume-item d-flex flex-column flex-md-row">
-      <div class="mr-auto">
-
-        <h1 class="mb-0">{{ .Site.Params.firstName }}
+    <div class="hero-panel resume-item d-flex flex-column flex-lg-row align-items-lg-center">
+      <div class="mr-auto pr-lg-4">
+        <p class="eyebrow mb-3">{{ .Site.Params.tagline }}</p>
+        <h1 class="mb-3">{{ .Site.Params.firstName }}
           <span class="text-primary">{{ .Site.Params.lastName }}</span>
         </h1>
-        <div class="subheading mb-5">{{ .Site.Params.address }} ·
+        <div class="subheading mb-4">{{ .Site.Params.address }} ·
           <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
         </div>
-
+        <div class="lead-copy">
+          {{ .Content }}
+        </div>
+        <div class="hero-actions mt-4">
+          <a class="btn btn-primary btn-lg mr-3 mb-3" href="{{ "contact" | relURL }}">Contattami</a>
+          <a class="btn btn-outline-primary btn-lg mb-3" href="{{ "projects" | relURL }}">Vedi i progetti</a>
+        </div>
       </div>
-
-      {{ if .Site.Params.showQr }}
-      {{ partial "contact-qr" . }}
-      {{ end }}
-
+      <div class="hero-aside">
+        <div class="profile-card">
+          <img class="profile-card-image" src="{{ .Site.Params.profileImage | relURL }}"
+            alt="Foto profilo di {{ .Site.Params.firstName }} {{ .Site.Params.lastName }}">
+          <div class="profile-card-body">
+            <p class="profile-card-label mb-2">Focus</p>
+            <ul class="profile-highlights">
+              <li>Sviluppo web full stack</li>
+              <li>Progetti universitari concreti</li>
+              <li>Frontend, API e integrazione dati</li>
+            </ul>
+          </div>
+        </div>
+        {{ if .Site.Params.showQr }}
+        {{ partial "contact-qr" . }}
+        {{ end }}
+      </div>
     </div>
-    <div>
-      {{ .Content }}
-      <!-- Badges -->
-      <span style="color: #999999;">
-        <p>
-          <a href="https://themes.gohugo.io/themes/hugo-resume/" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.shields.io/badge/built%20with-Hugo-ff4088?logo=hugo&logoColor=white"
-              alt="Built with Hugo" />
-          </a>
-          <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://img.shields.io/badge/deployed%20on-Cloudflare%20Pages-2563EB?logo=cloudflare&logoColor=white"
-              alt="Deployed on Cloudflare Pages" />
-          </a>
-          <a href="https://github.com/stefanopennaa/stefanopenna-frontend" target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://img.shields.io/github/last-commit/stefanopennaa/stefanopenna-frontend/main?label=latest%20commit&logo=github"
-              alt="Latest GitHub commit" />
-          </a>
-        </p>
-      </span>
-      <!------------>
+    <div class="about-sections">
+      <!-- Keep these as text links so the section stays readable even if badge services are unavailable. -->
+      <div class="meta-chips" aria-label="Tecnologie e piattaforme del sito">
+        <a class="meta-chip" href="https://themes.gohugo.io/themes/hugo-resume/" target="_blank" rel="noopener noreferrer">
+          <span>Hugo Resume</span>
+        </a>
+        <a class="meta-chip" href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
+          <span>Cloudflare Pages</span>
+        </a>
+        <a class="meta-chip" href="https://github.com/stefanopennaa/stefanopenna-frontend" target="_blank" rel="noopener noreferrer">
+          <span>Codice sorgente</span>
+        </a>
+      </div>
       {{ if .Site.Params.showSocializations }}
       <h3 class="mt-4 mb-2">{{ i18n "contact" }}</h3>
       <ul class="list-inline list-social-icons mb-0">
         {{ range .Site.Params.handles }}
         <li class="list-inline-item">
-          <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10" rel="me" target="_blank">
+          <a href="{{ .link }}" aria-label="{{ .name }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10" rel="me" target="_blank">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i
@@ -57,26 +66,32 @@
       {{ end }}
       {{ if .Site.Params.showCertifications }}
       <h3 class="mt-4 mb-2">{{ i18n "certifications" }}</h3>
-      <ul class="list-inline list-social-icons mb-0">
+      <ul class="list-inline list-social-icons mb-0 certification-list">
         {{ range .Site.Data.certifications }}
         <li class="list-inline-item">
-          <a href="{{ .proof }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10" rel="me" target="_blank">
-            <img src="{{ .badge }}" width=75 />
+          {{ if .proof }}
+          <a href="{{ .proof }}" aria-label="{{ .name }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10" rel="me" target="_blank">
+            <img src="{{ .badge }}" width="75" alt="{{ .name }}" loading="lazy" />
           </a>
+          {{ else }}
+          <span class="certification-badge" title="{{ .name }}">
+            <img src="{{ .badge }}" width="75" alt="{{ .name }}" loading="lazy" />
+          </span>
+          {{ end }}
         </li>
         {{ end }}
       </ul>
       {{ end }}
       {{ if .Site.Params.showBoards }}
       <h3 class="mt-4 mb-2">{{ i18n "boards" }}</h3>
-      <ul class="list-inline list-social-icons mb-0">
+      <ul class="list-inline list-social-icons mb-0 board-list">
         {{ range .Site.Data.boards }}
         <li class="list-inline-item">
-          <div class="text-center d-flex">
+          <div class="board-card text-center d-flex">
             <a href="{{ .website }}" data-toggle="tooltip" title="{{ .description }}" data-offset="-30 -30"
-              target="_blank">
-              <img src="{{ .logo }}" width=75 />
-            </a><br />
+              target="_blank" rel="noopener noreferrer">
+              <img src="{{ .logo }}" width="75" alt="Logo {{ .organization }}" loading="lazy" />
+            </a>
             <div class="text-left ml-2">
               <h4 class="mb-0">{{ .organization }}</h4>
               <div>{{ .board }}</div>
@@ -84,7 +99,6 @@
             </div>
           </div>
         </li>
-        <li class="list-inline-item">&nbsp;</li>
         {{ end }}
       </ul>
       {{end}}
