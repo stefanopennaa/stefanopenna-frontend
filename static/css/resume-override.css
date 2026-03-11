@@ -67,11 +67,11 @@ section.resume-section {
 }
 
 #projects-content > h2 {
-  margin-top: 4.5rem;
+  margin-top: 5.5rem !important;
 }
 
 #projects-content > h2:first-of-type {
-  margin-top: 3rem;
+  margin-top: 2.75rem !important;
 }
 
 .hero-panel,
@@ -261,8 +261,12 @@ section.resume-section {
   box-shadow: 0 14px 28px rgba(28, 47, 91, 0.12);
 }
 
-.resume-item .project-card-image {
-  margin-right: 0.5rem !important;
+#projects-content .resume-item {
+  gap: 0.35rem;
+}
+
+#projects-content .project-card-image {
+  margin-right: 0 !important;
 }
 
 .resume-item {
