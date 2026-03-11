@@ -197,8 +197,9 @@ section.resume-section {
 .tag {
   background: rgba(37, 99, 235, 0.08);
   color: var(--ink);
-  border: 1px solid rgba(37, 99, 235, 0.12);
+  border: none;
   border-radius: 999px 0 0 999px;
+  filter: drop-shadow(0 0 0.75px rgba(37, 99, 235, 0.35));
 }
 
 .tag::before {
@@ -248,7 +249,7 @@ section.resume-section {
 .board-card img,
 .certification-badge img,
 .certification-list a img {
-  border-radius: 0.75rem;
+  border-radius: 0.4rem;
   object-fit: contain;
 }
 
@@ -315,7 +316,7 @@ footer p {
   #projects-content .resume-item.flex-md-row {
     display: grid !important;
     grid-template-columns: 150px minmax(0, 1fr);
-    column-gap: 2rem;
+    column-gap: 1rem;
     align-items: start;
   }
 
