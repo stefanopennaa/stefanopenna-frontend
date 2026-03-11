@@ -265,6 +265,8 @@ section.resume-section {
 }
 
 .project-card-image {
+  display: block;
+  max-width: 150px;
   border-radius: 0.9rem;
   box-shadow: 0 14px 28px rgba(28, 47, 91, 0.12);
 }
@@ -324,6 +326,7 @@ footer p {
 }
 
 @media (min-width: 768px) {
+  /* Project cards use an explicit two-column layout on desktop to keep image/text spacing stable. */
   #projects-content .resume-item.flex-md-row {
     display: grid !important;
     grid-template-columns: 150px minmax(0, 1fr);
