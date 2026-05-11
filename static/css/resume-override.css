@@ -309,12 +309,13 @@ footer p {
 
 @media (min-width: 992px) {
   .contact-layout {
+    position: relative;
     align-items: stretch;
   }
 
   .contact-info-column {
     padding-right: 2rem !important;
-    border-right: 1px solid rgba(95, 111, 134, 0.35);
+    border-right: 0;
   }
 
   .contact-qr-column {
@@ -322,6 +323,16 @@ footer p {
     padding-top: 0;
     border-top: 0;
     padding-left: 2rem !important;
+  }
+
+  .contact-layout::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 58.333333%;
+    width: 1px;
+    background: rgba(95, 111, 134, 0.45);
   }
 }
 
