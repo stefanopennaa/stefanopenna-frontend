@@ -1,2 +1,10 @@
 .DS_Store
 public/
+
+# Hugo lock/cache/output
+.hugo_build.lock
+resources/_gen/
+hugo_stats.json
+
+# Temp files
+*.tmp
