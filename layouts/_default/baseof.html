@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.LanguageCode | default .Site.LanguageCode | default "it" }}">
+<html lang="{{ .Site.Language.LanguageCode | default .Site.LanguageCode | default " it" }}">
 
 <head>
   <meta charset="utf-8">
@@ -9,13 +9,13 @@
   <!-- Use page-specific metadata when available, otherwise fall back to site-wide copy. -->
   {{ $metaDescription := "" }}
   {{ if .IsHome }}
-    {{ $metaDescription = .Site.Params.description }}
+  {{ $metaDescription = .Site.Params.description }}
   {{ else if .Description }}
-    {{ $metaDescription = .Description }}
+  {{ $metaDescription = .Description }}
   {{ else if .Summary }}
-    {{ $metaDescription = .Summary | plainify | truncate 160 }}
+  {{ $metaDescription = .Summary | plainify | truncate 160 }}
   {{ else }}
-    {{ $metaDescription = .Site.Params.description }}
+  {{ $metaDescription = .Site.Params.description }}
   {{ end }}
   <meta name="description" content="{{ $metaDescription }}">
   <link rel="canonical" href="{{ .Permalink }}">
@@ -105,7 +105,7 @@
     <footer class="text-center mt-4 mb-4">
       {{ with .GitInfo }}
       <p class="mb-0 text-muted">
-        Deployed from commit
+        deployed from commit
         <a href="https://github.com/stefanopennaa/stefanopenna-frontend/commit/{{ .Hash }}" target="_blank"
           rel="noopener noreferrer">
           {{ .AbbreviatedHash }}

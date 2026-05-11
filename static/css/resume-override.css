@@ -68,7 +68,7 @@ section.resume-section {
   border-bottom: 1px solid var(--border-soft);
 }
 
-.project-subsection + .project-subsection {
+.project-subsection+.project-subsection {
   padding-top: 2.5rem;
 }
 
@@ -167,11 +167,11 @@ section.resume-section {
   color: var(--ink);
 }
 
-.profile-highlights li + li {
+.profile-highlights li+li {
   margin-top: 0.5rem;
 }
 
-.about-sections > p:first-child {
+.about-sections>p:first-child {
   /* The intro copy is already rendered inside the hero. */
   display: none;
 }
@@ -248,7 +248,7 @@ section.resume-section {
   text-decoration: none;
 }
 
-.board-card > a {
+.board-card>a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -281,6 +281,44 @@ section.resume-section {
 
 footer p {
   color: var(--muted) !important;
+}
+
+.contact-layout {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.contact-details li+li {
+  margin-top: 0.6rem;
+}
+
+.contact-social-link {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.contact-qr-column {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(95, 111, 134, 0.35);
+}
+
+@media (min-width: 992px) {
+  .contact-layout {
+    align-items: stretch;
+  }
+
+  .contact-info-column {
+    padding-right: 2rem !important;
+    border-right: 1px solid rgba(95, 111, 134, 0.35);
+  }
+
+  .contact-qr-column {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    padding-left: 2rem !important;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -326,6 +364,7 @@ footer p {
 }
 
 @media (min-width: 768px) {
+
   /* Project cards use an explicit two-column layout on desktop to keep image/text spacing stable. */
   #projects-content .resume-item.flex-md-row {
     display: grid !important;
