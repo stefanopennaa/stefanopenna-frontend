@@ -248,6 +248,10 @@ section.resume-section {
   text-decoration: none;
 }
 
+.certification-badge[data-toggle="tooltip"]:not(a) {
+  cursor: help;
+}
+
 .board-card>a {
   display: flex;
   align-items: center;

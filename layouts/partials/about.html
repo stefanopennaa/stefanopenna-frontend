@@ -13,8 +13,8 @@
           {{ .Content }}
         </div>
         <div class="hero-actions mt-4">
-          <a class="btn btn-primary btn-lg mr-3 mb-3" href="{{ "contact" | relURL }}">Contattami</a>
-          <a class="btn btn-outline-primary btn-lg mb-3" href="{{ "projects" | relURL }}">Vedi i progetti</a>
+          <a class="btn btn-primary btn-lg mr-3 mb-3" href="{{ " contact" | relURL }}">Contattami</a>
+          <a class="btn btn-outline-primary btn-lg mb-3" href="{{ " projects" | relURL }}">Vedi i progetti</a>
         </div>
       </div>
       <div class="hero-aside">
@@ -42,7 +42,8 @@
             alt="Built with Hugo" loading="lazy" />
         </a>
         <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/deployed%20on-Cloudflare%20Pages-2563EB?logo=cloudflare&logoColor=white"
+          <img
+            src="https://img.shields.io/badge/deployed%20on-Cloudflare%20Pages-2563EB?logo=cloudflare&logoColor=white"
             alt="Deployed on Cloudflare Pages" loading="lazy" />
         </a>
         <a href="https://github.com/stefanopennaa/stefanopenna-frontend" target="_blank" rel="noopener noreferrer">
@@ -55,7 +56,8 @@
       <ul class="list-inline list-social-icons mb-0">
         {{ range .Site.Params.handles }}
         <li class="list-inline-item">
-          <a href="{{ .link }}" aria-label="{{ .name }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10" rel="me" target="_blank">
+          <a href="{{ .link }}" aria-label="{{ .name }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10"
+            rel="me" target="_blank">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i
@@ -72,11 +74,13 @@
         {{ range .Site.Data.certifications }}
         <li class="list-inline-item">
           {{ if .proof }}
-          <a class="certification-badge" href="{{ .proof }}" aria-label="{{ .name }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10" rel="me" target="_blank">
+          <a class="certification-badge" href="{{ .proof }}" aria-label="{{ .name }}" data-toggle="tooltip"
+            title="{{ .name }}" data-offset="0 10" rel="me" target="_blank">
             <img src="{{ .badge }}" width="75" alt="{{ .name }}" loading="lazy" />
           </a>
           {{ else }}
-          <span class="certification-badge" title="{{ .name }}">
+          <span class="certification-badge" title="{{ .name }}" aria-label="{{ .name }}" data-toggle="tooltip"
+            data-offset="0 10" tabindex="0">
             <img src="{{ .badge }}" width="75" alt="{{ .name }}" loading="lazy" />
           </span>
           {{ end }}
