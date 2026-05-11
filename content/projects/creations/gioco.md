@@ -1,7 +1,7 @@
 {
   "title": "Applicazioni Web I - Gioco della Sfortuna",
   "date": "2025-05-01T00:00:00Z",
-  "image": "https://cdn.stefanopenna.it/images/gioco_della_sfortuna.png",
+  "image": "https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_1.jpeg",
   "link": "https://www.linkedin.com/in/stefano-penna/details/projects/",
   "description": "Applicazione web sviluppata durante il corso di Applicazioni Web I A.A. 2024/2025, consistente in una versione single-player del gioco da tavolo Stuff Happens, realizzata con React, Node.js/Express e database SQLite.",
   "tags": [
@@ -26,3 +26,11 @@ Applicazione web sviluppata durante il corso di Applicazioni Web I (A.A. 2024/20
 In particolare, mi sono occupato dell’intero progetto, dalla progettazione dell’architettura client–server allo sviluppo delle API HTTP, della logica di gioco, della gestione dell’autenticazione e delle sessioni e dell’organizzazione del database.
 
 Ho inoltre curato lo sviluppo del frontend in React, occupandomi della gestione delle route applicative, della comunicazione client–server con CORS, della validazione dei dati e della redazione della documentazione tecnica del progetto (README).
+
+<table class="image-gallery">
+  <tr>
+    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_1.jpeg" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_2.jpeg" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_3.jpeg" width="100%"></td>
+  </tr>
+</table>
