@@ -1,8 +1,12 @@
 <h3 class="mb-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 <div class="resume-item d-flex flex-column flex-md-row mb-3">
   {{ with .Params.image }}
-  <img src="{{ . }}" class="mr-3 project-card-image"
-    alt="Anteprima progetto {{ $.Title }}" loading="lazy" />
+    <img
+      src="{{ . }}"
+      class="mr-3 project-card-image"
+      alt="Anteprima progetto {{ $.Title }}"
+      loading="lazy"
+    />
   {{ end }}
   <div class="resume-date">
     <p>{{ .Description | plainify }}</p>

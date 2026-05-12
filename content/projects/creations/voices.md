@@ -1,23 +1,23 @@
 {
-  "title": "Introduzione alle Applicazioni Web - Portale PoliVoices",
-  "date": "2023-01-01T00:00:00Z",
-  "image": "https://cdn.stefanopenna.it/images/poli_voices/poli_voices_2.jpeg",
-  "link": "https://www.linkedin.com/in/stefano-penna/details/projects/",
-  "description": "Applicazione web sviluppata durante il corso di Introduzione alle Applicazioni Web A.A. 2022/2023, consistente in una piattaforma di podcasting (\"PoliVoices\") per la comunità accademica del Politecnico, realizzata individualmente con Flask (Python), Bootstrap e database SQLite.",
-  "tags": [
-    "Web Application",
-    "Python",
-    "Flask",
-    "Bootstrap",
-    "HTML",
-    "SQLite",
-    "Full-Stack Development",
-    "Server-Side Rendering",
-    "Authentication",
-    "Git"
-  ],
-  "fact": "",
-  "featured": true
+"title": "Introduzione alle Applicazioni Web - Portale PoliVoices",
+"date": "2023-01-01T00:00:00Z",
+"image": "https://cdn.stefanopenna.it/images/poli_voices/poli_voices_2.jpeg",
+"link": "https://github.com/stefanopennaa/polivoices",
+"description": "Applicazione web sviluppata durante il corso di Introduzione alle Applicazioni Web A.A. 2022/2023, consistente in una piattaforma di podcasting (\"PoliVoices\") per la comunità accademica del Politecnico, realizzata individualmente con Flask (Python), Bootstrap e database SQLite.",
+"tags": [
+"Web Application",
+"Python",
+"Flask",
+"Bootstrap",
+"HTML",
+"SQLite",
+"Full-Stack Development",
+"Server-Side Rendering",
+"Authentication",
+"Git"
+],
+"fact": "",
+"featured": true
 }
 
 Applicazione web sviluppata durante il corso di Introduzione alle Applicazioni Web (A.A. 2022/2023), consistente in una piattaforma di podcasting ("PoliVoices") dedicata alla comunità del Politecnico, realizzata utilizzando Flask (Python) per il backend, HTML e Bootstrap per il frontend e database SQLite per la persistenza dei dati.

@@ -1,6 +1,21 @@
 {{- $destination := .Destination | safeURL -}}
-{{- $isExternal := or (hasPrefix $destination "http://") (hasPrefix $destination "https://") -}}
-{{- /* Keep internal, mailto and tel links in the same browsing context. */ -}}
-<a href="{{ $destination }}" {{ with .Title }}title="{{ . }}" {{ end }}{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>
-    {{ .Text | safeHTML }}
+{{- $isExternal := or (hasPrefix
+  $destination "http://") (hasPrefix $destination "https://")
+-}}
+{{- /* Keep
+  internal, mailto and tel links in the same browsing context. */
+-}}
+<a
+  href="{{ $destination }}"
+  {{ with
+    .Title
+  }}
+    title="{{ . }}"
+  {{ end }}{{ if
+    $isExternal
+  }}
+    target="_blank" rel="noopener noreferrer"
+  {{ end }}
+>
+  {{ .Text | safeHTML }}
 </a>

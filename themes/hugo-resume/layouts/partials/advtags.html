@@ -1,5 +1,9 @@
 <ul class="tags">
-    {{ range  .Params.advtags }}
-      <li><a class="tag" href="{{ "/advtags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
-    {{ end }}
+  {{ range  .Params.advtags }}
+    <li>
+      <a class="tag" href="{{ "/advtags/" | relURL }}{{ . | urlize }}"
+        >{{ . }}</a
+      >
+    </li>
+  {{ end }}
 </ul>

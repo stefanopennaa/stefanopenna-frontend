@@ -1,38 +1,50 @@
 {{ define "main" }}
-{{ partial "breadcrumbs" . }}
-<section class="resume-section p-3 p-lg-5 d-flex flex-column">
-  <div class="my-auto" id="projects-content">
-    <h1 id="{{ urlize .Title }}">{{ .Title }}</h1>
-    {{ .Content }}
-    <!-- Skip the generic page listing on /projects because subsection blocks are rendered below. -->
-    {{ $isProjectsRoot := false }}
-    {{ if .IsSection }}
-      {{ with .File }}
-        {{ if eq .Dir "projects/" }}
-          {{ $isProjectsRoot = true }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-    <!-- Other sections can render their direct pages immediately. -->
-    {{ if not $isProjectsRoot }}
-      {{ range .Data.Pages.ByWeight }}
-        {{ if ne .Type "markdown" }}
-          {{ partial (printf "%sSummary" .Type) . }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-    {{ range .Sections }}
-    <!-- Keep each subsection isolated so spacing between personal and group projects is predictable. -->
-    <section class="project-subsection">
-      <h2 id="{{ urlize .Title }}"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  {{ partial "breadcrumbs" . }}
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+    <div class="my-auto" id="projects-content">
+      <h1 id="{{ urlize .Title }}">{{ .Title }}</h1>
       {{ .Content }}
-      {{ range .Pages }}
-        {{ if ne .Type "markdown" }}
-          {{ partial (printf "%sSummary" .Type) . }}
+      <!-- Skip the generic page listing on /projects because subsection blocks are rendered below. -->
+      {{ $isProjectsRoot := false }}
+      {{ if .IsSection }}
+        {{ with .File }}
+          {{ if eq
+            .Dir "projects/"
+          }}
+            {{ $isProjectsRoot = true }}
+          {{ end }}
         {{ end }}
       {{ end }}
-    </section>
-    {{ end }}
-  </div>
-</section>
+      <!-- Other sections can render their direct pages immediately. -->
+      {{ if not $isProjectsRoot }}
+        {{ $pages := .Data.Pages.ByWeight }}
+        {{ if eq
+          .Section "projects"
+        }}
+          {{ $pages = .Data.Pages.ByDate.Reverse }}
+        {{ end }}
+        {{ range $pages }}
+          {{ if ne .Type "markdown" }}
+            {{ partial (printf
+              "%sSummary" .Type) .
+            }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ range .Sections }}
+        <!-- Keep each subsection isolated so spacing between personal and group projects is predictable. -->
+        <section class="project-subsection">
+          <h2 id="{{ urlize .Title }}">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h2>
+          {{ .Content }}
+          {{ range .Pages.ByDate.Reverse }}
+            {{ if ne .Type "markdown" }}
+              {{ partial (printf "%sSummary" .Type) . }}
+            {{ end }}
+          {{ end }}
+        </section>
+      {{ end }}
+    </div>
+  </section>
 {{ end }}

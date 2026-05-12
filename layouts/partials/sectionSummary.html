@@ -1,4 +1,7 @@
-<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="{{ .Scratch.Get "sectionId" }}">
+<section
+  class="resume-section p-3 p-lg-5 d-flex flex-column"
+  id="{{ .Scratch.Get " sectionId" }}"
+>
   <div class="my-auto" id="projects-content">
     <div class="pb-2 pt-3">
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
@@ -6,7 +9,7 @@
       {{ .Content }}
     </div>
 
-    {{ $featuredPages := where .Pages "Params.featured" true }}
+    {{ $featuredPages := (where .Pages "Params.featured" true).ByDate.Reverse }}
     {{ range $featuredPages }}
       {{ partial (printf "%s%s" .Section "Summary") . }}
     {{ end }}

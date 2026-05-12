@@ -1,24 +1,24 @@
 {
-  "title": "Applicazioni Web I - Gioco della Sfortuna",
-  "date": "2025-05-01T00:00:00Z",
-  "image": "https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_1.jpeg",
-  "link": "https://www.linkedin.com/in/stefano-penna/details/projects/",
-  "description": "Applicazione web sviluppata durante il corso di Applicazioni Web I A.A. 2024/2025, consistente in una versione single-player del gioco da tavolo Stuff Happens, realizzata con React, Node.js/Express e database SQLite.",
-  "tags": [
-    "Web Application",
-    "React",
-    "JavaScript",
-    "Node.js",
-    "Express",
-    "REST API",
-    "SQLite",
-    "Single-Page Application",
-    "Client-Server Architecture",
-    "Authentication",
-    "Git"
-  ],
-  "fact": "",
-  "featured": true
+"title": "Applicazioni Web I - Gioco della Sfortuna",
+"date": "2025-05-01T00:00:00Z",
+"image": "https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_1.jpeg",
+"link": "https://github.com/stefanopennaa/gioco-sfortuna",
+"description": "Applicazione web sviluppata durante il corso di Applicazioni Web I A.A. 2024/2025, consistente in una versione single-player del gioco da tavolo Stuff Happens, realizzata con React, Node.js/Express e database SQLite.",
+"tags": [
+"Web Application",
+"React",
+"JavaScript",
+"Node.js",
+"Express",
+"REST API",
+"SQLite",
+"Single-Page Application",
+"Client-Server Architecture",
+"Authentication",
+"Git"
+],
+"fact": "",
+"featured": true
 }
 
 Applicazione web sviluppata durante il corso di Applicazioni Web I (A.A. 2024/2025), consistente in una versione single-player del gioco da tavolo Stuff Happens, realizzata utilizzando React per il frontend, Node.js/Express per il backend e database SQLite per la persistenza dei dati.

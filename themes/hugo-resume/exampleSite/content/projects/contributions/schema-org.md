@@ -1,7 +1,7 @@
 ---
 title: Schema.org Structured Data documentation fixes
 date: 2020-01-07T17:08:21.433Z
-link: 'https://github.com/schemaorg/schemaorg/pull/1120'
+link: "https://github.com/schemaorg/schemaorg/pull/1120"
 image: /img/schema-org.webp
 description: >-
   Not all pull requests are glorious code, documentation is really important
@@ -17,4 +17,4 @@ sitemap:
   weight: 0.1
 ---
 
-While adding *Structured Data* to a client's website I found some example JSON that was invalid.  Simple contribution to cleanup the user documentation providing syntactically valid JSON documents.
+While adding _Structured Data_ to a client's website I found some example JSON that was invalid. Simple contribution to cleanup the user documentation providing syntactically valid JSON documents.

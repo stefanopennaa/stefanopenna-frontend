@@ -1,39 +1,57 @@
 {{ define "main" }}
-{{ $fullName := printf "%s %s" .Site.Params.firstName .Site.Params.lastName }}
-{{ $contactRows := slice (dict "label" "Nome" "value" $fullName) }}
-{{ with .Site.Params.tagline }}{{ $contactRows = $contactRows | append (dict "label" "Ruolo" "value" .) }}{{ end }}
-{{ with .Site.Params.address }}{{ $contactRows = $contactRows | append (dict "label" "Indirizzo" "value" .) }}{{ end }}
-{{ with .Site.Params.phone }}{{ $contactRows = $contactRows | append (dict "label" "Telefono" "value" . "href" (printf
-"tel:%s" .)) }}{{ end }}
-{{ with .Site.Params.email }}{{ $contactRows = $contactRows | append (dict "label" "Email" "value" . "href" (printf
-"mailto:%s" .)) }}{{ end }}
-{{ with .Site.Params.workemail }}{{ $contactRows = $contactRows | append (dict "label" "Email universitaria" "value" .
-"href" (printf "mailto:%s" .)) }}{{ end }}
-<section class="resume-section p-3 p-lg-5 d-flex d-column" id="{{ replace .Title " " " -" }}">
-  <div class="my-auto">
-    <h1 class="mb-5 text-center"><span class="text-primary">{{ .Title }}</span></h1>
-    <div class="contact-layout row no-gutters">
-      <div class="col-lg-7 pr-lg-4 contact-info-column">
-        <ul class="list-unstyled contact-details mb-4">
-          {{ range $contactRows }}
-          <li>
-            <strong>{{ .label }}:</strong>
-            {{ if .href }}
-            <a href="{{ .href }}">{{ .value }}</a>
-            {{ else }}
-            {{ .value }}
+  {{ $fullName := printf "%s %s" .Site.Params.firstName .Site.Params.lastName }}
+  {{ $contactRows := slice (dict "label" "Nome" "value" $fullName) }}
+  {{ with .Site.Params.tagline }}
+    {{ $contactRows = $contactRows | append (dict "label" "Ruolo" "value" .) }}
+  {{ end }}
+  {{ with .Site.Params.address }}
+    {{ $contactRows = $contactRows | append (dict "label" "Indirizzo" "value" .) }}
+  {{ end }}
+  {{ with .Site.Params.phone }}
+    {{ $contactRows = $contactRows | append (dict "label" "Telefono" "value" . "href" (printf
+      "tel:%s" .))
+    }}
+  {{ end }}
+  {{ with .Site.Params.email }}
+    {{ $contactRows = $contactRows | append (dict "label" "Email" "value" . "href" (printf
+      "mailto:%s" .))
+    }}
+  {{ end }}
+  {{ with .Site.Params.workemail }}
+    {{ $contactRows = $contactRows | append (dict "label" "Email universitaria" "value" .
+      "href" (printf "mailto:%s" .))
+    }}
+  {{ end }}
+  <section
+    class="resume-section p-3 p-lg-5 d-flex d-column"
+    id="{{ replace .Title " " " -" }}"
+  >
+    <div class="my-auto">
+      <h1 class="mb-5 text-center">
+        <span class="text-primary">{{ .Title }}</span>
+      </h1>
+      <div class="contact-layout row no-gutters">
+        <div class="col-lg-7 pr-lg-4 contact-info-column">
+          <ul class="list-unstyled contact-details mb-4">
+            {{ range $contactRows }}
+              <li>
+                <strong>{{ .label }}:</strong>
+                {{ if .href }}
+                  <a href="{{ .href }}">{{ .value }}</a>
+                {{ else }}
+                  {{ .value }}
+                {{ end }}
+              </li>
             {{ end }}
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      <div class="col-lg-5 pl-lg-4 contact-qr-column">
-        {{ partial "contact-qr" . }}
-        <div class="text-center lead-copy mt-3">
-          {{ .Content }}
+          </ul>
+        </div>
+        <div class="col-lg-5 pl-lg-4 contact-qr-column">
+          {{ partial "contact-qr" . }}
+          <div class="text-center lead-copy mt-3">
+            {{ .Content }}
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 {{ end }}

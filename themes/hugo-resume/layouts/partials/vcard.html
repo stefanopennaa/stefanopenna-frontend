@@ -1,30 +1,33 @@
-{{ $fields := (index .Site.Params.vcardfields) }}
-BEGIN:VCARD
-VERSION:4.0
-
-{{ if in $fields "name" }}
-N:{{ .Site.Params.lastName }};{{ .Site.Params.firstName }};;;
-FN:{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}
+{{ $fields := (index .Site.Params.vcardfields) }} BEGIN:VCARD VERSION:4.0
+{{ if
+  in $fields "name"
+}}
+  N:{{ .Site.Params.lastName }};{{ .Site.Params.firstName }};;;
+  FN:{{ .Site.Params.firstName }}
+  {{ .Site.Params.lastName }}
 {{ end }}
-{{ if in $fields "phone" }}
-TEL;TYPE=WORK,VOICE:{{ .Site.Params.phone }}
-{{ end }}
+{{ if in $fields "phone" }}TEL;TYPE=WORK,VOICE:{{ .Site.Params.phone }}{{ end }}
 {{ if in $fields "email" }}
-EMAIL;TYPE=INTERNET,PREF:{{ .Param "email" }}
+  EMAIL;TYPE=INTERNET,PREF:{{ .Param "email" }}
 {{ end }}
 {{ if in $fields "workemail" }}
-EMAIL;TYPE=INTERNET,WORK:{{ .Param "workemail" }}
+  EMAIL;TYPE=INTERNET,WORK:{{ .Param
+    "workemail"
+  }}
 {{ end }}
 {{ if in $fields "image" }}
-PHOTO;TYPE=JPG;VALUE=URI:{{ .Site.Params.profileImage }}
+  PHOTO;TYPE=JPG;VALUE=URI:{{ .Site.Params.profileImage }}
 {{ end }}
 {{ if in $fields "org" }}
-ORG:{{ range first 1 .Site.Data.experience }}{{ .company }}{{ end }}
+  ORG:{{ range
+    first 1 .Site.Data.experience
+  }}
+    {{ .company }}
+  {{ end }}
 {{ end }}
-{{ if and (in $fields "title") .Site.Params.tagline }}
-TITLE:{{ .Site.Params.tagline }}
+{{ if and (in
+  $fields "title") .Site.Params.tagline
+}}
+  TITLE:{{ .Site.Params.tagline }}
 {{ end }}
-{{ if in $fields "url" }}
-URL:{{ .Site.Params.vcardURL }}
-{{ end }}
-END:VCARD
+{{ if in $fields "url" }}URL:{{ .Site.Params.vcardURL }}{{ end }} END:VCARD

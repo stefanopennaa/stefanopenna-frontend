@@ -2,7 +2,7 @@
 title: Added Docker Build Status Badge to shields.io
 date: 2020-01-07T17:09:26.037Z
 featured: true
-link: 'https://github.com/badges/shields/pull/856'
+link: "https://github.com/badges/shields/pull/856"
 image: >-
   https://img.shields.io/docker/build/eddiewebb/bitbucket-pipelines-marketplace.svg?style=plastic
 description: Added a shield for Docker Hub builds indicating state of last build
@@ -12,7 +12,7 @@ tags:
   - JavaScript
   - node.js
   - JSON
-fact: ''
+fact: ""
 weight: 500
 sitemap:
   priority: 0.8

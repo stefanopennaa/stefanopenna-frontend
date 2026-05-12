@@ -68,7 +68,7 @@ section.resume-section {
   border-bottom: 1px solid var(--border-soft);
 }
 
-.project-subsection+.project-subsection {
+.project-subsection + .project-subsection {
   padding-top: 2.5rem;
 }
 
@@ -82,7 +82,11 @@ section.resume-section {
   gap: 2rem;
   margin-bottom: 2rem;
   padding: 2rem;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(242, 246, 255, 0.88));
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.96),
+    rgba(242, 246, 255, 0.88)
+  );
   border: 1px solid var(--border-soft);
   border-radius: 1.75rem;
   box-shadow: var(--shadow-lg);
@@ -167,11 +171,11 @@ section.resume-section {
   color: var(--ink);
 }
 
-.profile-highlights li+li {
+.profile-highlights li + li {
   margin-top: 0.5rem;
 }
 
-.about-sections>p:first-child {
+.about-sections > p:first-child {
   /* The intro copy is already rendered inside the hero. */
   display: none;
 }
@@ -252,7 +256,7 @@ section.resume-section {
   cursor: help;
 }
 
-.board-card>a {
+.board-card > a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -292,7 +296,7 @@ footer p {
   margin: 0 auto;
 }
 
-.contact-details li+li {
+.contact-details li + li {
   margin-top: 0.6rem;
 }
 
@@ -338,8 +342,11 @@ footer p {
 
 @media (max-width: 991.98px) {
   body {
-    background:
-      linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(245, 247, 251, 0.96));
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.96),
+      rgba(245, 247, 251, 0.96)
+    );
   }
 
   .hero-panel {
@@ -379,7 +386,6 @@ footer p {
 }
 
 @media (min-width: 768px) {
-
   /* Project cards use an explicit two-column layout on desktop to keep image/text spacing stable. */
   #projects-content .resume-item.flex-md-row {
     display: grid !important;

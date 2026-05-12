@@ -1,7 +1,7 @@
 ---
 title: "Search Results"
 sitemap:
-  priority : 0.1
+  priority: 0.1
 layout: "search"
 ---
 
@@ -15,7 +15,8 @@ This implementation uses Fusejs, jquery and mark.js
 
 ## Initial setup
 
-Search  depends on additional output content type of JSON in config.toml
+Search depends on additional output content type of JSON in config.toml
+
 ```
 [outputs]
   home = ["HTML", "JSON"]
@@ -25,9 +26,11 @@ Search  depends on additional output content type of JSON in config.toml
 
 To search additional fields defined in front matter, you must add it in 2 places.
 
-### Edit layouts/_default/index.JSON
+### Edit layouts/\_default/index.JSON
+
 This exposes the values in /index.json
 i.e. add `category`
+
 ```
 ...
   "contents":{{ .Content | plainify | jsonify }}
@@ -38,7 +41,9 @@ i.e. add `category`
 ```
 
 ### Edit fuse.js options to Search
+
 `static/js/search.js`
+
 ```
 keys: [
   "title",

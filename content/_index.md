@@ -1,12 +1,12 @@
 ---
 title: "Home"
 sitemap:
-  priority : 1.0
+  priority: 1.0
 
 outputs:
-- html
-- rss
-- json
+  - html
+  - rss
+  - json
 ---
 
 **Studente di Ingegneria Informatica @ [Politecnico di Torino](https://www.polito.it/)**
