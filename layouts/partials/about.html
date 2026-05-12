@@ -90,39 +90,6 @@
           />
         </a>
       </div>
-      {{ if .Site.Params.showSocializations }}
-        <h3 class="mt-4 mb-2">{{ i18n "contact" }}</h3>
-        <ul class="list-inline list-social-icons mb-0">
-          {{ range .Site.Params.handles }}
-            <li class="list-inline-item">
-              <a
-                href="{{ .link }}"
-                aria-label="{{ .name }}"
-                data-toggle="tooltip"
-                title="{{ .name }}"
-                data-offset="0,10"
-                rel="me"
-                target="_blank"
-              >
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i
-                    class="{{ if .iconStyle }}
-                      {{ .iconStyle }}
-                    {{ else }}
-                      fab
-                    {{ end }} fa-{{ if .icon }}
-                      {{ .icon }}
-                    {{ else }}
-                      {{ lower .name }}
-                    {{ end }} fa-stack-1x fa-inverse"
-                  ></i>
-                </span>
-              </a>
-            </li>
-          {{ end }}
-        </ul>
-      {{ end }}
       {{ if .Site.Params.showCertifications }}
         <h3 class="mt-4 mb-2">{{ i18n "certifications" }}</h3>
         <ul class="list-inline list-social-icons mb-0 certification-list">
