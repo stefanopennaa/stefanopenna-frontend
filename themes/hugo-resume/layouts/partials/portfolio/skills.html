@@ -17,13 +17,11 @@
           {{ end }}
           {{ if isset . "devicon" }}
             {{ $iconclass
-              = printf "devicon-%s-plain devicon-%-original" ( lower .devicon ) (lower
+              = printf "devicon-%s-plain devicon-%s-original" ( lower .devicon ) (lower
               .devicon )
             }}
           {{ else }}
-            {{ $iconclass = printf "devicon-%s-plain
-              devicon-%-original" ( lower $name ) (lower $name )
-            }}
+            {{ $iconclass = printf "devicon-%s-plain devicon-%s-original" ( lower $name ) (lower $name ) }}
           {{ end }}
           <li class="list-inline-item">
             <i class="{{ $iconclass }}"></i>
