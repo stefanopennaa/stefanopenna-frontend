@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="{{ .Site.Language.Locale | default "it" }}">
+<html
+  lang="{{ .Site.LanguageCode | default .Site.Language.Lang | default "it" }}"
+>
   <head>
     <meta charset="utf-8" />
     <meta
