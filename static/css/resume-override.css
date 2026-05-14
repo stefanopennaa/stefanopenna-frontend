@@ -133,6 +133,19 @@ section.resume-section {
   border-width: 2px;
 }
 
+.hero-actions .cv-download-link {
+  color: var(--muted);
+  border-color: rgba(95, 111, 134, 0.45);
+  background: rgba(95, 111, 134, 0.06);
+}
+
+.hero-actions .cv-download-link:hover,
+.hero-actions .cv-download-link:focus {
+  color: #fff;
+  border-color: #6b7280;
+  background: #6b7280;
+}
+
 .hero-aside {
   width: 100%;
   max-width: 22rem;

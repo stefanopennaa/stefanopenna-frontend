@@ -27,4 +27,4 @@ In particolare, mi sono occupato principalmente della parte video e visual del p
 
 Mi sono inoltre occupato della post-produzione del trailer, utilizzando software professionali quali Adobe Creative Suite e DaVinci Resolve per il color grading, il montaggio video e gli effetti visivi, garantendo un prodotto finale di elevata qualità in grado di comunicare efficacemente il messaggio della installazione. Il progetto ha rappresentato un'esperienza significativa di collaborazione multidisciplinare all'interno di un team creativo, integrando competenze di visual design, video production e media interattivo.
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/Kp7SibFpQH0" title="The Green Bench Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="mb-2" width="100%" height="500" src="https://www.youtube.com/embed/Kp7SibFpQH0" title="The Green Bench Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

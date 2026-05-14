@@ -26,7 +26,7 @@ In particolare, mi sono occupato dell’intero progetto, dalla progettazione del
 
 Ho inoltre curato lo sviluppo del frontend in HTML, Bootstrap e JavaScript, occupandomi della realizzazione di un'interfaccia responsive, della validazione dei dati lato client e della redazione della documentazione tecnica del progetto (README). Il progetto è stato realizzato individualmente e valutato con 30 e lode.
 
-<table class="image-gallery">
+<table class="image-gallery mb-2">
   <tr>
     <td><img src="https://cdn.stefanopenna.it/images/poli_voices/poli_voices_1.jpeg" alt="PoliVoices — screenshot 1" width="100%"></td>
     <td><img src="https://cdn.stefanopenna.it/images/poli_voices/poli_voices_2.jpeg" alt="PoliVoices — screenshot 2" width="100%"></td>

@@ -1,0 +1,28 @@
+{{- $params := .Site.Params -}}
+{{- $fields := $params.vcardfields | default slice -}}
+{{- $fullName := printf "%s %s" $params.firstName $params.lastName -}}
+{{- $lines := slice "BEGIN:VCARD" "VERSION:3.0" -}}
+{{- if in $fields "name" -}}
+  {{- $lines = $lines | append (printf "N:%s;%s;;;" $params.lastName $params.firstName) -}}
+  {{- $lines = $lines | append (printf "FN:%s" $fullName) -}}
+{{- end -}}
+{{- if in $fields "phone" -}}
+  {{- $lines = $lines | append (printf "TEL;TYPE=CELL:%s" $params.phone) -}}
+{{- end -}}
+{{- if in $fields "email" -}}
+  {{- $lines = $lines | append (printf "EMAIL;TYPE=INTERNET,HOME:%s" $params.email) -}}
+{{- end -}}
+{{- if in $fields "workemail" -}}
+  {{- $lines = $lines | append (printf "EMAIL;TYPE=INTERNET,WORK:%s" $params.workemail) -}}
+{{- end -}}
+{{- if in $fields "image" -}}
+  {{- $lines = $lines | append (printf "PHOTO;VALUE=URI:%s" $params.profileImage) -}}
+{{- end -}}
+{{- if and (in $fields "title") $params.tagline -}}
+  {{- $lines = $lines | append (printf "TITLE:%s" $params.tagline) -}}
+{{- end -}}
+{{- if in $fields "url" -}}
+  {{- $lines = $lines | append (printf "URL:%s" $params.vcardURL) -}}
+{{- end -}}
+{{- $lines = $lines | append "END:VCARD" -}}
+{{- printf "%s\r\n" (delimit $lines "\r\n") -}}

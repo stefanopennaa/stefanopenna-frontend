@@ -32,7 +32,7 @@ Ho inoltre curato aspetti critici della qualità del software, implementando sui
 
 Il progetto ha previsto una collaborazione intensiva all'interno del team e ha messo in pratica metodologie agili per il development e la continuous integration, consolidando competenze fondamentali nell'ingegneria del software moderna.
 
-<table class="image-gallery">
+<table class="image-gallery mb-2">
   <tr>
     <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_1.jpeg" alt="GeoControl — screenshot 1" width="100%"></td>
     <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_2.jpeg" alt="GeoControl — screenshot 2" width="100%"></td>

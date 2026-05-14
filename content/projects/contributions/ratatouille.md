@@ -26,7 +26,7 @@ In particolare, mi sono occupato di progettare e sviluppare alcuni asset chiave 
 
 Mi sono inoltre occupato degli aspetti di illuminazione di scena, gestendo il posizionamento strategico delle luci per ottenere l'atmosfera desiderata, e ho realizzato i rendering finali con particolare attenzione agli effetti visivi avanzati, quali particelle di fumo e effetti di luce globale. Il progetto ha rappresentato una collaborazione proficua all'interno del team, consolidando competenze fondamentali nella computer grafica 3D e nella visual communication.
 
-<table class="image-gallery">
+<table class="image-gallery mb-2">
   <tr>
     <td><img src="https://cdn.stefanopenna.it/images/ratatouille/ratatouille_1.jpeg" width="100%"></td>
     <td><img src="https://cdn.stefanopenna.it/images/ratatouille/ratatouille_2.jpeg" width="100%"></td>

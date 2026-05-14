@@ -36,7 +36,7 @@ I siti del progetto sono ancora online:
 2. [Ethernanews](https://ethernanews.pages.dev/) — [GitHub](https://github.com/stefanopennaa/ethernanews)
 3. [EtherTickets](https://ethertickets.pages.dev/) — [GitHub](https://github.com/stefanopennaa/ethertickets)
 
-<table class="image-gallery">
+<table class="image-gallery mb-2">
   <tr>
     <td><img src="https://cdn.stefanopenna.it/images/nesimo/nesimo_2.jpeg" width="100%"></td>
     <td><img src="https://cdn.stefanopenna.it/images/nesimo/nesimo_3.jpeg" width="100%"></td>

@@ -1,0 +1,11 @@
+{{- $baseURL := replaceRE "/$" "" .Site.Params.vcardURL -}}
+{{- $vcardURL := printf "%s/contact.vcf" $baseURL -}}
+<div class="p0 m0 text-center mb-3">
+  <p>Scansiona il QR code</p>
+  <img
+    id="qr-code"
+    class="qrcode"
+    alt="QR code per scaricare la vCard di Stefano Penna"
+    src="https://quickchart.io/qr?text={{ $vcardURL | urlquery }}"
+  />
+</div>

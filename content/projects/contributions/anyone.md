@@ -26,4 +26,4 @@ In particolare, mi sono occupato principalmente della post-produzione, curando a
 
 Ho inoltre collaborato attivamente sul set durante le riprese, supportando il team di produzione in diverse fasi operative, dalla gestione della continuità visiva al supporto tecnico, contribuendo al buon funzionamento della logistica di produzione. Il progetto ha rappresentato un'esperienza formativa significativa nel contesto della produzione cinematografica professionale, consolidando competenze di post-produzione video e rafforzando la collaborazione all'interno di un team creativo multidisciplinare.
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/ftJuCOGM3zE" title="Anyone - Cortometraggio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="mb-2" width="100%" height="500" src="https://www.youtube.com/embed/ftJuCOGM3zE" title="Anyone - Cortometraggio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

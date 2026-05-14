@@ -27,7 +27,7 @@ In particolare, mi sono occupato dell’intero progetto, dalla progettazione del
 
 Ho inoltre curato lo sviluppo del frontend in React, occupandomi della gestione delle route applicative, della comunicazione client–server con CORS, della validazione dei dati e della redazione della documentazione tecnica del progetto (README).
 
-<table class="image-gallery">
+<table class="image-gallery mb-2">
   <tr>
     <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_1.jpeg" alt="Gioco della Sfortuna — schermata 1" width="100%"></td>
     <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_2.jpeg" alt="Gioco della Sfortuna — schermata 2" width="100%"></td>
