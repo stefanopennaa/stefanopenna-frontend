@@ -65,7 +65,7 @@
       {{ if .Site.Params.showCertifications }}
       <h3 class="mt-4 mb-2">{{ i18n "certifications" }}</h3>
       <ul class="list-inline list-social-icons mb-0 certification-list">
-        {{ range .Site.Data.certifications }}
+        {{ range hugo.Data.certifications }}
         <li class="list-inline-item">
           {{ if .proof }}
           <a class="certification-badge" href="{{ .proof }}" aria-label="{{ .name }}" data-toggle="tooltip"
@@ -91,7 +91,7 @@
       {{ if .Site.Params.showBoards }}
       <h3 class="mt-4 mb-2">{{ i18n "boards" }}</h3>
       <ul class="list-inline list-social-icons mb-0 board-list">
-        {{ range .Site.Data.boards }}
+        {{ range hugo.Data.boards }}
         <li class="list-inline-item">
           <div class="board-card text-center d-flex">
             <a href="{{ .website }}" data-toggle="tooltip" title="{{ .description }}" data-offset="-30 -30"
@@ -100,8 +100,7 @@
             </a>
             <div class="text-left ml-2">
               <h4 class="mb-0">{{ .organization }}</h4>
-              <div class="board-label{{ if eq .board " Consulta studentesca di Istituto" }} board-label--subtle{{ end
-                }}">{{ .board }}</div>
+              <div class="board-label{{ if eq .board "Consulta studentesca di Istituto" }} board-label--subtle{{ end }}">{{ .board }}</div>
               <div>{{ .role }}</div>
             </div>
           </div>

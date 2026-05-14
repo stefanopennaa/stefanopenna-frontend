@@ -1,7 +1,7 @@
 title = "Stefano Penna"
 baseURL = "/"
 theme = "hugo-resume"
-languageCode = "it-IT"
+locale = "it-IT"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle = "monokai"

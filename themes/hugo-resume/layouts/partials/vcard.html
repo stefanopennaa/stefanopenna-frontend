@@ -20,7 +20,7 @@
 {{ end }}
 {{ if in $fields "org" }}
   ORG:{{ range
-    first 1 .Site.Data.experience
+    first 1 hugo.Data.experience
   }}
     {{ .company }}
   {{ end }}
