@@ -1,6 +1,6 @@
 ---
 title: Alternate Reality Game – Nesimo
-date: 2024-03-01T00:00:00+01:00
+date: 2024-05-01T00:00:00+01:00
 featured: true
 link: "https://www.linkedin.com/in/stefano-penna/details/projects/"
 image: "https://cdn.stefanopenna.it/images/nesimo/nesimo_1.jpeg"

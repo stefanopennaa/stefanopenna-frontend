@@ -4,8 +4,9 @@
     <div class="my-auto">
       <h2 class="mb-0"><span class="text-primary">{{ .Title }}</span></h2>
       {{ .Content }}
-      {{ with .Params.link }}
-        <p>Project link: <a href="{{ . }}">{{ . }}</a></p>
+      {{ if and .Params.link (not (eq .Params.showProjectLink false)) }}
+        {{ $link := .Params.link }}
+        <p>Project link: <a href="{{ $link }}">{{ $link }}</a></p>
       {{ end }}
       {{ partial "techtags" . }}
     </div>
