@@ -156,9 +156,10 @@ img.qrcode {
 }
 
 .facebook-embed-grid iframe {
+  display: block;
   width: 100%;
+  max-width: none !important;
   height: auto;
-  min-height: clamp(340px, 32vw, 500px);
   aspect-ratio: 16 / 9;
   border: 0;
   border-radius: 0.9rem;
@@ -168,6 +169,14 @@ img.qrcode {
 @media (max-width: 768px) {
   .facebook-embed-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .facebook-embed-grid iframe {
+    width: 100% !important;
+    min-width: 0;
   }
 
   .image-gallery,

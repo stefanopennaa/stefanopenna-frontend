@@ -453,6 +453,22 @@ section.resume-section {
 
 .breadcrumb {
   background: transparent;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+nav[aria-label="breadcrumb"] {
+  margin-top: 0.75rem;
+}
+
+.breadcrumb-item {
+  min-width: 0;
+}
+
+.breadcrumb-item a {
+  line-height: 1.35;
 }
 
 footer p {
@@ -678,6 +694,10 @@ footer p {
   .resume-date {
     width: 100%;
     min-width: 0 !important;
+  }
+
+  nav[aria-label="breadcrumb"] {
+    margin-top: 1.875rem;
   }
 }
 
