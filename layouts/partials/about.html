@@ -73,7 +73,7 @@
             <span class="certification-media">
               <img src="{{ .badge }}" alt="{{ .name }}" loading="lazy" />
             </span>
-            <span class="certification-title">{{ .name }}</span>
+            <span class="certification-title">{{ .short_name | default .name }}</span>
           </a>
           {{ else }}
           <span class="certification-badge" title="{{ .name }}" aria-label="{{ .name }}" data-toggle="tooltip"
@@ -81,7 +81,7 @@
             <span class="certification-media">
               <img src="{{ .badge }}" alt="{{ .name }}" loading="lazy" />
             </span>
-            <span class="certification-title">{{ .name }}</span>
+            <span class="certification-title">{{ .short_name | default .name }}</span>
           </span>
           {{ end }}
         </li>
@@ -100,7 +100,8 @@
             </a>
             <div class="text-left ml-2">
               <h4 class="mb-0">{{ .organization }}</h4>
-              <div>{{ .board }}</div>
+              <div class="board-label{{ if eq .board " Consulta studentesca di Istituto" }} board-label--subtle{{ end
+                }}">{{ .board }}</div>
               <div>{{ .role }}</div>
             </div>
           </div>
