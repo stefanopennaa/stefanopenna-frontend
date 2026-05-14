@@ -169,4 +169,25 @@ img.qrcode {
   .facebook-embed-grid {
     grid-template-columns: 1fr;
   }
+
+  .image-gallery,
+  .image-gallery tbody,
+  .image-gallery tr,
+  .image-gallery td {
+    display: block;
+    width: 100%;
+  }
+
+  .image-gallery {
+    border-spacing: 0;
+  }
+
+  .image-gallery td + td {
+    margin-top: 1rem;
+  }
+
+  img.qrcode {
+    width: min(100%, 300px);
+    height: auto;
+  }
 }
