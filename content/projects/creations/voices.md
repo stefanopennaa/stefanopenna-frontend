@@ -28,8 +28,8 @@ Ho inoltre curato lo sviluppo del frontend in HTML, Bootstrap e JavaScript, occu
 
 <table class="image-gallery">
   <tr>
-    <td><img src="https://cdn.stefanopenna.it/images/poli_voices/poli_voices_1.jpeg" width="100%"></td>
-    <td><img src="https://cdn.stefanopenna.it/images/poli_voices/poli_voices_2.jpeg" width="100%"></td>
-    <td><img src="https://cdn.stefanopenna.it/images/poli_voices/poli_voices_3.jpeg" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/poli_voices/poli_voices_1.jpeg" alt="PoliVoices — screenshot 1" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/poli_voices/poli_voices_2.jpeg" alt="PoliVoices — screenshot 2" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/poli_voices/poli_voices_3.jpeg" alt="PoliVoices — screenshot 3" width="100%"></td>
   </tr>
 </table>

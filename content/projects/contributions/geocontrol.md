@@ -34,12 +34,12 @@ Il progetto ha previsto una collaborazione intensiva all'interno del team e ha m
 
 <table class="image-gallery">
   <tr>
-    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_1.jpeg" width="100%"></td>
-    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_2.jpeg" width="100%"></td>
-    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_3.jpeg" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_1.jpeg" alt="GeoControl — screenshot 1" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_2.jpeg" alt="GeoControl — screenshot 2" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_3.jpeg" alt="GeoControl — screenshot 3" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_4.jpeg" width="100%"></td>
-    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_5.jpeg" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_4.jpeg" alt="GeoControl — screenshot 4" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/geocontrol/geocontrol_5.jpeg" alt="GeoControl — screenshot 5" width="100%"></td>
   </tr>
 </table>

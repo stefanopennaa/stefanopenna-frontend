@@ -29,8 +29,8 @@ Ho inoltre curato lo sviluppo del frontend in React, occupandomi della gestione 
 
 <table class="image-gallery">
   <tr>
-    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_1.jpeg" width="100%"></td>
-    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_2.jpeg" width="100%"></td>
-    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_3.jpeg" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_1.jpeg" alt="Gioco della Sfortuna — schermata 1" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_2.jpeg" alt="Gioco della Sfortuna — schermata 2" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/gioco_sfortuna/gioco_sfortuna_3.jpeg" alt="Gioco della Sfortuna — schermata 3" width="100%"></td>
   </tr>
 </table>
