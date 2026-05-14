@@ -24,6 +24,7 @@ lastName = "Penna"
 phone = "3319413120"
 tagline = "Studente di Ingegneria Informatica"
 profileImage = "https://cdn.stefanopenna.it/images/stefano.png"
+cvURL = "https://cdn.stefanopenna.it/docs/CV_template.pdf"
 vcardURL = "https://stefanopenna.it"
 showQr = false
 showContact = true

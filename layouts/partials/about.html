@@ -15,28 +15,30 @@
         </div>
         <div class="hero-actions mt-4">
           <a class="btn btn-primary btn-lg mr-3 mb-3" href="{{ " contact" | relURL }}">Contattami</a>
-          <a class="btn btn-outline-primary btn-lg mb-3" href="{{ " projects" | relURL }}">Vedi i progetti</a>
+          <a class="btn btn-outline-primary btn-lg mr-3 mb-3" href="{{ " projects" | relURL }}">Vedi i progetti</a>
+          <a class="btn btn-outline-secondary btn-lg mb-3" href="{{ .Site.Params.cvURL }}" target="_blank"
+            rel="noopener noreferrer">Scarica il mio CV</a>
         </div>
       </div>
       <div class="hero-aside">
         <div class="profile-card">
           <div class="profile-card-body">
-            <ul class="profile-highlights">
-              <li>
-                Sono laureando in Ingegneria Informatica (Computing and Network
-                Infrastructures) al Politecnico di Torino, con una formazione
-                che integra informatica, telecomunicazioni e architetture di
-                rete.
-              </li>
-              <li>
-                Ho sviluppato competenze pratiche in sviluppo full-stack,
-                networking e infrastrutture cloud.
-              </li>
-              <li>
-                Ho maturato esperienze concrete in team multidisciplinari e in
-                ruoli di rappresentanza accademica.
-              </li>
-            </ul>
+            <div class="profile-story">
+              <p>
+                🎓 Sto concludendo Ingegneria Informatica al Politecnico di Torino, con un percorso che unisce
+                infrastrutture di rete, cloud-native e sviluppo software.
+              </p>
+              <p>
+                👨🏻‍💻 Mi piace costruire applicazioni web end-to-end: backend con Flask/Python, frontend in React e
+                API REST
+                in TypeScript, con Docker e Kubernetes quando serve dare struttura e continuita.
+              </p>
+              <p>
+                🤝🏻 Il mio approccio e pratico e collaborativo: trasformare requisiti in soluzioni utili, curate e
+                facili da
+                usare per le persone.
+              </p>
+            </div>
           </div>
         </div>
         {{ if .Site.Params.showQr }}
@@ -68,12 +70,18 @@
           {{ if .proof }}
           <a class="certification-badge" href="{{ .proof }}" aria-label="{{ .name }}" data-toggle="tooltip"
             title="{{ .name }}" data-offset="0 10" rel="me" target="_blank">
-            <img src="{{ .badge }}" width="75" alt="{{ .name }}" loading="lazy" />
+            <span class="certification-media">
+              <img src="{{ .badge }}" alt="{{ .name }}" loading="lazy" />
+            </span>
+            <span class="certification-title">{{ .name }}</span>
           </a>
           {{ else }}
           <span class="certification-badge" title="{{ .name }}" aria-label="{{ .name }}" data-toggle="tooltip"
             data-offset="0 10" tabindex="0">
-            <img src="{{ .badge }}" width="75" alt="{{ .name }}" loading="lazy" />
+            <span class="certification-media">
+              <img src="{{ .badge }}" alt="{{ .name }}" loading="lazy" />
+            </span>
+            <span class="certification-title">{{ .name }}</span>
           </span>
           {{ end }}
         </li>
