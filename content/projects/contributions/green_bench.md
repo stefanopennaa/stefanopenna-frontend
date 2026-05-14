@@ -6,15 +6,14 @@
 "description": "Concept di installazione interattiva sviluppato durante il corso di Interactive Media A.A. 2021/2022, che propone una riflessione critica sulla scarsità di spazi verdi nel quartiere Aurora di Torino, con focus su video, visual design e post-produzione.",
 "tags": [
 "Isadora",
-"Interactive Installation",
+"Installazione interattiva",
 "Lavoro di gruppo",
 "Adobe Creative Suite",
 "Produzione video",
 "DaVinci Resolve",
 "Montaggio video",
-"Video Production",
-"Post-Production",
-"Visual Effects",
+"Post-produzione",
+"Effetti visivi",
 "Media Art"
 ],
 "fact": "",

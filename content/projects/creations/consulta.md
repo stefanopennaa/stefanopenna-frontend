@@ -7,10 +7,10 @@
 "description": "Esperienza in Consulta studentesca di Istituto (I.I.S.S. G. Salvemini, Alessano) durante il periodo Covid: coordinamento social e produzione di contenuti informativi per accompagnare studenti e famiglie verso gli Esami di Stato 2020.",
 "tags": [
 "Social Media",
-"Content Creation",
+"Creazione contenuti",
 "Formazione",
 "Comunicazione",
-"Student Leadership"
+"Leadership studentesca"
 ],
 "fact": "",
 "featured": true

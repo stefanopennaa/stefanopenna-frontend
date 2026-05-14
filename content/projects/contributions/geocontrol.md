@@ -10,7 +10,7 @@
 "Node.js",
 "Express",
 "TypeScript",
-"Testing di software",
+"Testing",
 "Docker",
 "SQLite",
 "Git",
@@ -18,7 +18,7 @@
 "Jest",
 "System Design",
 "Deployment",
-"Backend Development"
+"Sviluppo Backend"
 ],
 "fact": "",
 "featured": true

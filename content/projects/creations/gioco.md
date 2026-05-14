@@ -13,8 +13,8 @@
 "REST API",
 "SQLite",
 "Single-Page Application",
-"Client-Server Architecture",
-"Authentication",
+"Architettura Client-Server",
+"Autenticazione",
 "Git"
 ],
 "fact": "",

@@ -11,9 +11,9 @@
 "Bootstrap",
 "HTML",
 "SQLite",
-"Full-Stack Development",
-"Server-Side Rendering",
-"Authentication",
+"Sviluppo Full-Stack",
+"Rendering lato server",
+"Autenticazione",
 "Git"
 ],
 "fact": "",

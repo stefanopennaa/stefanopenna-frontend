@@ -9,14 +9,14 @@ tags:
   - HTML
   - CSS
   - Bootstrap
-  - Web Development
+  - Sviluppo Web
   - Interactive Media
   - Alternate Reality Game
   - Transmedia
   - Klynt
   - iFrame
   - Elfsight
-  - Team Project
+  - Lavoro di gruppo
 fact: ""
 weight: 500
 sitemap:

@@ -6,15 +6,15 @@
 "description": "Modellazione e rendering di scene 3D realizzate tramite Blender durante il corso di Computer Grafica A.A. 2022/2023, con progettazione, modellazione, texturing, illuminazione e rendering di asset 3D.",
 "tags": [
 "Blender",
-"3D Modeling",
+"Modellazione 3D",
 "Rendering",
 "Texturing",
 "Lavoro di gruppo",
 "Adobe Creative Suite",
 "Substance 3D Painter",
-"Lighting",
-"Visual Effects",
-"Scene Composition"
+"Illuminazione",
+"Effetti visivi",
+"Composizione scenica"
 ],
 "fact": "",
 "featured": true

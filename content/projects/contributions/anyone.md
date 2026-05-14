@@ -9,12 +9,9 @@
 "Produzione video",
 "Montaggio video",
 "Correzione del colore",
+"Post-produzione",
 "Cortometraggio",
-"Post-Production",
-"Film Production",
-"Color Grading",
-"Cinematografia",
-"Media Production"
+"Cinematografia"
 ],
 "fact": "",
 "featured": true
