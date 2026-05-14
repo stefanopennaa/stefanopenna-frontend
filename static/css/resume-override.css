@@ -83,7 +83,7 @@ section.resume-section {
   border-bottom: 1px solid var(--border-soft);
 }
 
-.project-subsection + .project-subsection {
+.project-subsection+.project-subsection {
   padding-top: 2.5rem;
 }
 
@@ -100,17 +100,15 @@ section.resume-section {
   margin-bottom: 2rem;
   padding: 2rem;
   max-width: 100%;
-  background: linear-gradient(
-    145deg,
-    rgba(255, 255, 255, 0.96),
-    rgba(242, 246, 255, 0.88)
-  );
+  background: linear-gradient(145deg,
+      rgba(255, 255, 255, 0.96),
+      rgba(242, 246, 255, 0.88));
   border: 1px solid var(--border-soft);
   border-radius: 1.75rem;
   box-shadow: var(--shadow-lg);
 }
 
-.hero-panel > .mr-auto {
+.hero-panel>.mr-auto {
   min-width: 0;
 }
 
@@ -264,11 +262,11 @@ section.resume-section {
   color: var(--ink);
 }
 
-.profile-highlights li + li {
+.profile-highlights li+li {
   margin-top: 0.5rem;
 }
 
-.about-sections > p:first-child {
+.about-sections>p:first-child {
   /* The intro copy is already rendered inside the hero. */
   display: none;
 }
@@ -409,7 +407,7 @@ section.resume-section {
   color: var(--ink);
 }
 
-.board-card > a {
+.board-card>a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -454,6 +452,7 @@ section.resume-section {
 .breadcrumb {
   background: transparent;
   align-items: center;
+  margin-left: 1.25rem;
   margin-bottom: 1.25rem;
   padding-left: 0;
   padding-right: 0;
@@ -480,7 +479,7 @@ footer p {
   margin: 0 auto;
 }
 
-.contact-details li + li {
+.contact-details li+li {
   margin-top: 0.6rem;
 }
 
@@ -527,11 +526,9 @@ footer p {
 @media (max-width: 991.98px) {
   body {
     padding-top: 58px;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.96),
-      rgba(245, 247, 251, 0.96)
-    );
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.96),
+        rgba(245, 247, 251, 0.96));
   }
 
   #sideNav {
@@ -610,7 +607,7 @@ footer p {
     padding: 1.15rem;
   }
 
-  .hero-panel > .mr-auto {
+  .hero-panel>.mr-auto {
     width: 100%;
     margin-right: 0 !important;
   }
@@ -683,7 +680,7 @@ footer p {
     margin-bottom: 1rem;
   }
 
-  .project-subsection + .project-subsection {
+  .project-subsection+.project-subsection {
     padding-top: 1.75rem;
   }
 
@@ -793,6 +790,7 @@ footer p {
 }
 
 @media (min-width: 768px) {
+
   /* Project cards use an explicit two-column layout on desktop to keep image/text spacing stable. */
   #projects-content .resume-item.flex-md-row {
     display: grid !important;
