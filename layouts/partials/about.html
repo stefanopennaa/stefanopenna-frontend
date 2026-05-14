@@ -14,8 +14,8 @@
           {{ .Content }}
         </div>
         <div class="hero-actions mt-4">
-          <a class="btn btn-primary btn-lg mr-3 mb-3" href="{{ " contact" | relURL }}">Contattami</a>
-          <a class="btn btn-outline-primary btn-lg mr-3 mb-3" href="{{ " projects" | relURL }}">Vedi i progetti</a>
+          <a class="btn btn-primary btn-lg mr-3 mb-3" href="{{ "contact" | relURL }}">Contattami</a>
+          <a class="btn btn-outline-primary btn-lg mr-3 mb-3" href="{{ "projects" | relURL }}">Vedi i progetti</a>
           <a class="btn btn-outline-secondary btn-lg mb-3" href="{{ .Site.Params.cvURL }}" target="_blank"
             rel="noopener noreferrer">Scarica il mio CV</a>
         </div>
@@ -100,7 +100,8 @@
             </a>
             <div class="text-left ml-2">
               <h4 class="mb-0">{{ .organization }}</h4>
-              <div class="board-label{{ if eq .board "Consulta studentesca di Istituto" }} board-label--subtle{{ end }}">{{ .board }}</div>
+              <div class="board-label{{ if eq .board " Consulta studentesca di Istituto" }} board-label--subtle{{ end
+                }}">{{ .board }}</div>
               <div>{{ .role }}</div>
             </div>
           </div>
