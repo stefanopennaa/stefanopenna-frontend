@@ -1,5 +1,5 @@
 {
-"title": "Humidity Sensor — ESP8266 + SSD1306",
+"title": "Humidity Sensor - ESP8266 + SSD1306",
 "date": "2026-05-01T00:00:00Z",
 "image": "https://cdn.stefanopenna.it/images/ESP12F/humidity-sensor.png",
 "link": "https://github.com/stefanopennaa/humidity-sensor",

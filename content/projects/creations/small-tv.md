@@ -1,5 +1,5 @@
 {
-"title": "SmallTV RSS — ESP8266 + ST7789",
+"title": "SmallTV RSS - ESP8266 + ST7789",
 "date": "2026-03-15T00:00:00Z",
 "image": "https://cdn.stefanopenna.it/images/ESP12F/small-tv-rss.png",
 "link": "https://github.com/stefanopennaa/small-tv-rss",
