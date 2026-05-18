@@ -15,17 +15,17 @@ defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = false
 
 [params]
-description = "Portfolio personale di Stefano Penna: studi, esperienze e progetti in ambito sviluppo software e web."
+description = "Ciao! Sono Stefano, ho 24 anni: studio Ingegneria Informatica al Politecnico di Torino e continuo a imparare tra Arduino, cloud-native e Sviluppo Web Full Stack."
 address = "Torino, TO"
 email = "stefano@stefanopenna.it"
 workemail = "s343693@studenti.polito.it"
-favicon = "/favicon.ico"
+favicon = "/favicon/favicon.ico"
 firstName = "Stefano"
 lastName = "Penna"
 phone = "3319413120"
 tagline = "Studente di Ingegneria Informatica"
 profileImage = "https://cdn.stefanopenna.it/images/stefano.png"
-cvURL = "https://cdn.stefanopenna.it/docs/CV_template.pdf"
+cvURL = "https://cdn.stefanopenna.it/docs/CV_Stefano.pdf"
 vcardURL = "https://stefanopenna.it"
 showQr = false
 showContact = true
