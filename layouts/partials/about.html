@@ -49,10 +49,10 @@
               <p>
                 👨🏻‍💻 Mi piace costruire applicazioni web end-to-end: backend con
                 Flask/Python, frontend in React e API REST in TypeScript, con
-                Docker e Kubernetes quando serve dare struttura e continuita.
+                Docker e Kubernetes quando serve dare struttura e continuità.
               </p>
               <p>
-                🤝🏻 Il mio approccio e pratico e collaborativo: trasformare
+                🤝🏻 Il mio approccio è pratico e collaborativo: trasformare
                 requisiti in soluzioni utili, curate e facili da usare per le
                 persone.
               </p>
@@ -118,8 +118,8 @@
             </a>
             <div class="text-left ml-2">
               <h4 class="mb-0">{{ .organization }}</h4>
-              <div class="board-label{{ if eq .board " Consulta studentesca di Istituto" }} board-label--subtle {{ end
-                }}">
+              {{ $isSubtleBoard := eq (trim .board " ") "Consulta studentesca di Istituto" }}
+              <div class="board-label{{ if $isSubtleBoard }} board-label--subtle{{ end }}">
                 {{ .board }}
               </div>
               <div>{{ .role }}</div>
