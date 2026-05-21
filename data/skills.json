@@ -41,7 +41,7 @@
     "grouping": "Networking & Cybersecurity",
     "skills": [
       {
-        "name": "LAN/WAN",
+        "name": "Reti LAN/WAN",
         "fa": "network-wired",
         "faStyle": "fa-solid"
       },
@@ -53,6 +53,11 @@
       {
         "name": "Protocolli Internet",
         "fa": "globe",
+        "faStyle": "fa-solid"
+      },
+      {
+        "name": "Fondamenti di Cybersecurity",
+        "fa": "shield-halved",
         "faStyle": "fa-solid"
       }
     ]
