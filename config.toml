@@ -68,7 +68,7 @@ vcardfields = [
 
 [[params.handles]]
     name = "Gravatar"
-    link = "https://www.gravatar.com/stefanopennaa"
+    link = "https://gravatar.stefanopenna.it"
     svg = "https://www.svgrepo.com/show/330583/gravatar.svg" # path to svg file
 
 [outputs]

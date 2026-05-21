@@ -21,6 +21,11 @@
 "href" (printf "mailto:%s" .))
 }}
 {{ end }}
+{{ range .Site.Params.handles }}
+{{ if eq .name "Gravatar" }}
+{{ $contactRows = $contactRows | append (dict "label" .name "value" (strings.TrimPrefix "https://" .link) "href" .link) }}
+{{ end }}
+{{ end }}
 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="{{ .Title | urlize }}">
   <div class="my-auto">
     <h1 class="mb-5 text-center">
