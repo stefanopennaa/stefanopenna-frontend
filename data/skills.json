@@ -76,6 +76,10 @@
       {
         "name": "Spark",
         "devicon": "apachespark"
+      },
+      {
+        "name": "Hadoop",
+        "devicon": "hadoop"
       }
     ]
   },
@@ -131,6 +135,10 @@
       {
         "name": "Git",
         "devicon": "git"
+      },
+      {
+        "name": "GitHub",
+        "devicon": "github"
       },
       {
         "name": "GitHub Actions",
