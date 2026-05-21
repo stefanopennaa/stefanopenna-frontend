@@ -22,7 +22,7 @@ workemail = "s343693@studenti.polito.it"
 favicon = "/favicon/favicon.ico"
 firstName = "Stefano"
 lastName = "Penna"
-phone = "3319413120"
+phone = "+393319413120"
 tagline = "Studente di Ingegneria Informatica"
 profileImage = "https://cdn.stefanopenna.it/images/stefano.png"
 cvURL = "https://cdn.stefanopenna.it/docs/CV_Stefano.pdf"
@@ -32,8 +32,10 @@ showContact = true
 showBoards  = true
 showCertifications = true
 showSocializations = true
+skillsIntro = "Conoscenze IT acquisite durante il mio percorso di studi:"
+skillsOutro = "Inoltre, i numerosi progetti di gruppo affrontati durante il mio percorso mi hanno permesso di sviluppare competenze trasversali fondamentali: dalla comunicazione efficace alla gestione delle scadenze, dal problem solving collaborativo alla capacità di adattarmi a team con background diversi, mantenendo sempre un approccio proattivo e orientato al risultato."
 # sections = ["skills","publications","creations","contributions","experience","education","blog"]
-sections = ["education", "experience", "creations", "contributions"]
+sections = ["education", "experience",  "skills", "creations", "contributions"]
 vcardfields = [
     "name",
     "image",
@@ -63,6 +65,11 @@ vcardfields = [
 [[params.handles]]
     name = "GitHub"
     link = "https://github.com/stefanopennaa/"
+
+[[params.handles]]
+    name = "Gravatar"
+    link = "https://www.gravatar.com/stefanopennaa"
+    svg = "https://www.svgrepo.com/show/330583/gravatar.svg" # path to svg file
 
 [outputs]
 home = ["HTML", "JSON"]

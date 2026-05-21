@@ -1,80 +1,171 @@
 [
   {
-    "grouping": "Architecture",
-    "skills": [
-      "IP Networking",
-      "DNS",
-      "Firewalls",
-      "Load Balancing",
-      "Microservices",
-      "RESTful APIs",
-      "SaaS/PaaS/IaaS"
-    ]
-  },
-  {
-    "grouping": "Languages, Operating Systems & Tools",
-    "skills": [
-      "Java",
-      "Python",
-      "git",
-      "subversion",
-      "linux",
-      "bash",
-      "php",
-      "jquery",
-      "javascript"
-    ]
-  },
-  {
-    "grouping": "Platform Development & Administration",
-    "skills": [
-      "Atlassian",
-      "Bamboo",
-      "Bitbucket",
-      "NGINX",
-      "MySQL",
-      "Wordpress"
-    ]
-  },
-  {
-    "grouping": "Data Management",
+    "grouping": "Sviluppo Software",
     "skills": [
       {
-        "name": "Microsoft SQL Server",
-        "icon": "msql_server"
+        "name": "Python",
+        "devicon": "python"
       },
       {
-        "name": "Oracle",
-        "icon": "database"
+        "name": "JavaScript",
+        "devicon": "javascript"
       },
-      "MongoDB",
       {
-        "name": "Apache Spark"
+        "name": "TypeScript",
+        "devicon": "typescript"
+      },
+      {
+        "name": "Java",
+        "devicon": "java"
       }
     ]
   },
   {
-    "grouping": "Containers & Cloud",
+    "grouping": "Cloud & Infrastructure",
     "skills": [
       {
-        "name": "BOSH",
-        "link": "https://bosh.io"
-      },
-      {
         "name": "Docker",
-        "link": "https://docker.com"
+        "devicon": "docker"
       },
       {
-        "name": "AWS",
-        "link": "https://aws.amazon.com"
+        "name": "Kubernetes",
+        "devicon": "kubernetes"
       },
       {
-        "name": "Google Cloud",
-        "link": "https://cloud.google.com"
+        "name": "Cloudflare",
+        "devicon": "cloudflare"
+      }
+    ]
+  },
+  {
+    "grouping": "Networking & Cybersecurity",
+    "skills": [
+      {
+        "name": "LAN/WAN",
+        "fa": "network-wired",
+        "faStyle": "fa-solid"
       },
       {
-        "name": "Linux",
-        "link": "https://bosh.io"
+        "name": "Reti Cellulari",
+        "fa": "signal",
+        "faStyle": "fa-solid"
+      },
+      {
+        "name": "Protocolli Internet",
+        "fa": "globe",
+        "faStyle": "fa-solid"
+      }
+    ]
+  },
+  {
+    "grouping": "Data",
+    "skills": [
+      {
+        "name": "SQL",
+        "devicon": "mysql"
+      },
+      {
+        "name": "SQLite",
+        "devicon": "sqlite"
+      },
+      {
+        "name": "Spark",
+        "devicon": "apachespark"
+      }
+    ]
+  },
+  {
+    "grouping": "Backend",
+    "skills": [
+      {
+        "name": "Node.js",
+        "devicon": "nodejs"
+      },
+      {
+        "name": "Express",
+        "devicon": "express"
+      },
+      {
+        "name": "Flask",
+        "devicon": "flask"
+      },
+      {
+        "name": "OpenAPI/Swagger",
+        "devicon": "swagger"
+      }
+    ]
+  },
+  {
+    "grouping": "Web Full Stack",
+    "skills": [
+      {
+        "name": "React.js",
+        "devicon": "react"
+      },
+      {
+        "name": "HTML5",
+        "devicon": "html5"
+      },
+      {
+        "name": "CSS3",
+        "devicon": "css3"
+      },
+      {
+        "name": "Bootstrap",
+        "devicon": "bootstrap"
+      },
+      {
+        "name": "Vite",
+        "devicon": "vitejs"
+      }
+    ]
+  },
+  {
+    "grouping": "DevOps & Tooling",
+    "skills": [
+      {
+        "name": "Git",
+        "devicon": "git"
+      },
+      {
+        "name": "GitHub Actions",
+        "devicon": "githubactions"
+      },
+      {
+        "name": "Jest",
+        "devicon": "jest"
+      }
+    ]
+  },
+  {
+    "grouping": "Multimedia & 3D",
+    "skills": [
+      {
+        "name": "Photoshop",
+        "devicon": "photoshop"
+      },
+      {
+        "name": "Premiere Pro",
+        "devicon": "premierepro"
+      },
+      {
+        "name": "DaVinci Resolve",
+        "fa": "film",
+        "faStyle": "fa-solid"
+      },
+      {
+        "name": "Blender",
+        "devicon": "blender"
+      },
+      {
+        "name": "ISADORA",
+        "fa": "display",
+        "faStyle": "fa-solid"
+      },
+      {
+        "name": "Klynt 3",
+        "fa": "photo-film",
+        "faStyle": "fa-solid"
       }
     ]
   }

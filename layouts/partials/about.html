@@ -27,8 +27,13 @@
                 rel="me noopener noreferrer">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
+                  {{ if .svg }}
+                  <img src="{{ .svg }}"
+                    style="width:1em; height:1em; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); filter:brightness(0) invert(1);" />
+                  {{ else }}
                   <i class="{{ .iconStyle | default " fab" }} fa-{{ .icon | default (lower .name) }} fa-stack-1x
                     fa-inverse"></i>
+                  {{ end }}
                 </span>
               </a>
             </li>
