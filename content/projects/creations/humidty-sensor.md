@@ -33,3 +33,13 @@ In particolare ho curato la realizzazione della dashboard web responsive con gra
     <td><img src="https://cdn.stefanopenna.it/images/ESP12F/humidity-sensor.png" alt="Humidity Sensor — dashboard" width="100%"></td>
   </tr>
 </table>
+
+Un ringraziamento speciale a [PCBWay](https://www.pcbway.com/) per aver sponsorizzato il progetto con un sample gratuito dello shield 3D che ho progettato per l'ESP8266. Lo shield mi ha permesso di realizzare un enclosure compatto e robusto per il microcontrollore, mantenendo il montaggio ordinato e più adatto all'uso quotidiano. PCBWay offre servizi di produzione PCB, assemblaggio e stampa 3D di alta qualità a prezzi competitivi, con un ottimo supporto per maker, studenti e piccoli team.
+
+<table class="image-gallery mb-2">
+  <tr>
+    <td><img src="https://cdn.stefanopenna.it/images/PCBWay/PCBWay_1.png" alt="PCBWay shield 3D per ESP8266 — vista 1" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/PCBWay/PCBWay_2.png" alt="PCBWay shield 3D per ESP8266 — vista 2" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/PCBWay/PCBWay_3.png" alt="PCBWay shield 3D per ESP8266 — vista 3" width="100%"></td>
+  </tr>
+</table>
