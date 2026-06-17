@@ -41,5 +41,6 @@ Un ringraziamento speciale a [PCBWay](https://www.pcbway.com/) per aver sponsori
     <td><img src="https://cdn.stefanopenna.it/images/PCBWay/PCBWay_1.png" alt="PCBWay shield 3D per ESP8266 — vista 1" width="100%"></td>
     <td><img src="https://cdn.stefanopenna.it/images/PCBWay/PCBWay_2.png" alt="PCBWay shield 3D per ESP8266 — vista 2" width="100%"></td>
     <td><img src="https://cdn.stefanopenna.it/images/PCBWay/PCBWay_3.png" alt="PCBWay shield 3D per ESP8266 — vista 3" width="100%"></td>
+    <td><img src="https://cdn.stefanopenna.it/images/PCBWay/PCBWay_4.png" alt="PCBWay shield 3D per ESP8266 — vista 3" width="100%"></td>
   </tr>
 </table>
