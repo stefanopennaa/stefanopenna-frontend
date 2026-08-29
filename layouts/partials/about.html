@@ -15,8 +15,10 @@
         </div>
         <div class="hero-actions mt-4 mb-4">
           <a class="btn btn-primary btn-lg mr-3" href="{{ "projects" | relURL }}">Vedi i progetti</a>
-          <a class="btn btn-outline-primary btn-lg" href="{{ .Site.Params.cvURL }}" target="_blank"
-            rel="noopener noreferrer">Scarica il mio CV</a>
+          <div class="btn-group" role="group" aria-label="Download CV">
+            <a class="btn btn-outline-primary btn-lg" href="{{ .Site.Params.cvURL }}" target="_blank" rel="noopener noreferrer">Il mio CV</a>
+            <a class="btn btn-outline-primary btn-lg" href="{{ .Site.Params.europassURL }}" target="_blank" rel="noopener noreferrer">🇪🇺 Europass</a>
+          </div>
         </div>
         {{ if .Site.Params.showSocializations }}
         <div class="social-icons mb-lg-0 mb-2">
