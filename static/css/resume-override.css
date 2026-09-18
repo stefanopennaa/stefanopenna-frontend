@@ -208,7 +208,17 @@ section.resume-section {
 }
 
 .hero-actions .btn-outline-primary {
+  color: var(--accent);
+  border-color: var(--accent);
   border-width: 2px;
+}
+
+.hero-actions .btn-outline-primary:hover,
+.hero-actions .btn-outline-primary:focus,
+.hero-actions .btn-outline-primary:active {
+  color: #fff;
+  background-color: var(--accent);
+  border-color: var(--accent);
 }
 
 .hero-aside {
