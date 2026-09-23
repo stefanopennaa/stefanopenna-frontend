@@ -5,6 +5,7 @@ Allow: /
 # Exclude private or service areas, if present.
 Disallow: /admin/
 Disallow: /api/
+Disallow: /login/
 
 # XML sitemap for the main website.
 Sitemap: https://about.stefanopenna.it/sitemap.xml
