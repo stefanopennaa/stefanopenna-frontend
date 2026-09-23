@@ -1,0 +1,10 @@
+# Default rules for all legitimate crawlers.
+User-agent: *
+Allow: /
+
+# Exclude private or service areas, if present.
+Disallow: /admin/
+Disallow: /api/
+
+# XML sitemap for the main website.
+Sitemap: https://about.stefanopenna.it/sitemap.xml
