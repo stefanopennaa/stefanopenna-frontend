@@ -1,5 +1,12 @@
 [
   {
+    "role": "Tesista",
+    "company": "Smartotum",
+    "location": "Torino, Piemonte, Italia · Ibrido",
+    "summary": "Tesi sperimentale in collaborazione con Smartotum. Progetto e sviluppo di un laboratorio di emulazione di una comunità energetica: abitazioni virtuali con carichi, fotovoltaico e batteria, dati raccolti con Home Assistant, MQTT e TimescaleDB, dashboard per residenti e gestore, test automatici end to end.",
+    "range": "set 2026 - presente"
+  },
+  {
     "role": "Tirocinante",
     "company": "Links Management and Technology Spa",
     "summary": "Progetto PON 2014-2020. Analisi di metodologie e software per la progettazione di un business model per un prodotto software. Sviluppo di un’applicazione mobile su piattaforma Android affiancati da un tutor.",
